@@ -1,0 +1,7 @@
+﻿- insert:
+    - id: lianben-workbench
+      name: '@local/lianben-workbench'
+      # 接收方安装前请改成自己的工作目录；projectsRoot 可省略（默认 <workspace>/lianben-projects）。
+      # config:
+      #   workspace: 'D:/lianben-work'
+      #   projectsRoot: 'D:/lianben-work/lianben-projects'

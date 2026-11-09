@@ -1,0 +1,47 @@
+{
+ "docx": "剧本输入/sample-1ep.docx",
+ "source_sha256": "3a835732a604e84fb62642bc62dea68a85c0f805154d0782a3a610a4adaab6cd",
+ "total_paragraphs": 83,
+ "episodes": [
+  {
+   "ep": 1,
+   "title": "第1集《雾港》",
+   "title_en": "Episode 1: \"Mist Harbor\"",
+   "para_start": 15,
+   "para_end": 83,
+   "lines": 68,
+   "cjk": 654,
+   "atoms": 21,
+   "scenes": 3,
+   "dialogue_lines": 36,
+   "latin_words": 180,
+   "lang_mix": {
+    "cn": 18,
+    "en": 18,
+    "mixed": 0
+   },
+   "top_characters": [
+    "林砚",
+    "LIN YAN",
+    "苏晚",
+    "周叙",
+    "SU WAN"
+   ],
+   "anomalies": [],
+   "sha256": "f61be8b2dd62b476e2c5c39cf34b7915cc4112cb4e687e7fdbdf01b5161b3486"
+  }
+ ],
+ "statistics": {
+  "episodes": 20,
+  "paragraphs": 1523,
+  "cjk": 14367,
+  "atoms": 470,
+  "dialogue_lines": 818,
+  "language_ratio": {
+   "cn": 0.5,
+   "en": 0.5,
+   "mixed": 0.0
+  }
+ },
+ "generated_at": "2026-11-06T18:38:24+08:00"
+}

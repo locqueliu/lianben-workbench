@@ -1,0 +1,1131 @@
+{
+ "version": 1,
+ "schema": "lianben/preflight_report/1",
+ "project_id": "p_qypzrpvz8c7tmmvc5s79ne6de2",
+ "generated_at": "2026-11-06T18:38:24+08:00",
+ "rating": null,
+ "entry_gate": "BLOCKED",
+ "must_fix": [],
+ "suspected": [],
+ "scene_unify": [],
+ "top_actions": [],
+ "culture_notes": [],
+ "culture_issues": [
+  {
+   "ep": 10,
+   "paragraph": 637,
+   "line_index": 6,
+   "term": "筷子",
+   "category": "器物",
+   "kind": "dialogue",
+   "severity": "must_fix",
+   "fixable": false,
+   "context": "林砚(对白,声线压低)：把筷子放下。",
+   "suggestion": "台词逐字锁定，不能自动改；需人工修改源稿或由用户授权调整。"
+  },
+  {
+   "ep": 10,
+   "paragraph": 671,
+   "line_index": 40,
+   "term": "双膝跪地",
+   "category": "礼仪动作",
+   "kind": "action",
+   "severity": "must_fix",
+   "fixable": true,
+   "context": "△ 他双膝跪地，叩首三次，额头贴在冰冷的地面上。",
+   "suggestion": "确认是否为 SOURCE 已建立的跪礼；若未建立，改为单膝、蹲下、后退、低头等中性动作。"
+  },
+  {
+   "ep": 10,
+   "paragraph": 671,
+   "line_index": 40,
+   "term": "叩首",
+   "category": "礼仪动作",
+   "kind": "action",
+   "severity": "must_fix",
+   "fixable": true,
+   "context": "△ 他双膝跪地，叩首三次，额头贴在冰冷的地面上。",
+   "suggestion": "确认是否为 SOURCE 已建立的跪礼；若未建立，改为单膝、蹲下、后退、低头等中性动作。"
+  }
+ ],
+ "punctuation_issues": [
+  {
+   "ep": 3,
+   "paragraph": 150,
+   "line_index": 7,
+   "kind": "dialogue_text",
+   "char": "。",
+   "severity": "must_fix",
+   "count": 1,
+   "context": "LIN YAN (DIALOGUE, voice low): Nobody saw him leave。 That name is on the list.",
+   "suggestion": "改为半角句号「.」"
+  },
+  {
+   "ep": 3,
+   "paragraph": 153,
+   "line_index": 10,
+   "kind": "dialogue_text",
+   "char": "　",
+   "severity": "must_fix",
+   "count": 1,
+   "context": "LIN YAN (VO, voice tight): Do　not touch it. The door was locked from inside.",
+   "suggestion": "全角空格改为半角空格"
+  },
+  {
+   "ep": 3,
+   "paragraph": 156,
+   "line_index": 13,
+   "kind": "dialogue_text",
+   "char": "，",
+   "severity": "must_fix",
+   "count": 1,
+   "context": "LIN YAN (DIALOGUE, tail held back): Stay，close to me. That name is on the list.",
+   "suggestion": "改为半角逗号「,」"
+  },
+  {
+   "ep": 9,
+   "paragraph": 534,
+   "line_index": 7,
+   "kind": "dialogue_text",
+   "char": "。",
+   "severity": "must_fix",
+   "count": 1,
+   "context": "LIN YAN (DIALOGUE, voice low): The manifest looks wrong。 That name is on the list.",
+   "suggestion": "改为半角句号「.」"
+  },
+  {
+   "ep": 9,
+   "paragraph": 537,
+   "line_index": 10,
+   "kind": "dialogue_text",
+   "char": "　",
+   "severity": "must_fix",
+   "count": 1,
+   "context": "LIN YAN (VO, voice tight): Look　at the bollard. The door was locked from inside.",
+   "suggestion": "全角空格改为半角空格"
+  },
+  {
+   "ep": 9,
+   "paragraph": 540,
+   "line_index": 13,
+   "kind": "dialogue_text",
+   "char": "，",
+   "severity": "must_fix",
+   "count": 1,
+   "context": "LIN YAN (DIALOGUE, tail held back): Nobody，leaves the dock. That name is on the list.",
+   "suggestion": "改为半角逗号「,」"
+  },
+  {
+   "ep": 15,
+   "paragraph": 1093,
+   "line_index": 7,
+   "kind": "dialogue_text",
+   "char": "。",
+   "severity": "must_fix",
+   "count": 1,
+   "context": "LIN YAN (DIALOGUE, voice low)： This is not rust。 That name is on the list.",
+   "suggestion": "改为半角句号「.」"
+  },
+  {
+   "ep": 15,
+   "paragraph": 1093,
+   "line_index": 7,
+   "kind": "separator",
+   "char": "：",
+   "severity": "must_fix",
+   "count": 1,
+   "context": "LIN YAN (DIALOGUE, voice low)： This is not rust。 That name is on the list.",
+   "suggestion": "英文台词分隔符改为半角冒号「:」"
+  },
+  {
+   "ep": 15,
+   "paragraph": 1096,
+   "line_index": 10,
+   "kind": "dialogue_text",
+   "char": "　",
+   "severity": "must_fix",
+   "count": 1,
+   "context": "LIN YAN (VO, voice tight): Check　the north gate. The door was locked from inside.",
+   "suggestion": "全角空格改为半角空格"
+  },
+  {
+   "ep": 15,
+   "paragraph": 1099,
+   "line_index": 13,
+   "kind": "dialogue_text",
+   "char": "，",
+   "severity": "must_fix",
+   "count": 1,
+   "context": "LIN YAN (DIALOGUE, tail held back): The，camera went dark. That name is on the list.",
+   "suggestion": "改为半角逗号「,」"
+  }
+ ],
+ "spoken_word_check": {
+  "status": "FAIL",
+  "failed_eps": [
+   7,
+   12
+  ],
+  "results": [
+   {
+    "ep": 1,
+    "count": 180,
+    "min": 100,
+    "max": 350,
+    "status": "PASS",
+    "reason": "within_range",
+    "by_tag": {
+     "对白": 160,
+     "VO": 10,
+     "OS": 10,
+     "other": 0
+    },
+    "spoken_lines": 36,
+    "english_spoken_lines": 18,
+    "cn_spoken_lines": 18,
+    "mixed_lines": 0,
+    "parenthetical_removed": 0,
+    "near_boundary": false
+   },
+   {
+    "ep": 2,
+    "count": 150,
+    "min": 100,
+    "max": 350,
+    "status": "PASS",
+    "reason": "within_range",
+    "by_tag": {
+     "对白": 130,
+     "VO": 10,
+     "OS": 10,
+     "other": 0
+    },
+    "spoken_lines": 30,
+    "english_spoken_lines": 15,
+    "cn_spoken_lines": 15,
+    "mixed_lines": 0,
+    "parenthetical_removed": 0,
+    "near_boundary": false
+   },
+   {
+    "ep": 3,
+    "count": 220,
+    "min": 100,
+    "max": 350,
+    "status": "PASS",
+    "reason": "within_range",
+    "by_tag": {
+     "对白": 200,
+     "VO": 10,
+     "OS": 10,
+     "other": 0
+    },
+    "spoken_lines": 44,
+    "english_spoken_lines": 22,
+    "cn_spoken_lines": 22,
+    "mixed_lines": 0,
+    "parenthetical_removed": 0,
+    "near_boundary": false
+   },
+   {
+    "ep": 4,
+    "count": 130,
+    "min": 100,
+    "max": 350,
+    "status": "PASS",
+    "reason": "within_range",
+    "by_tag": {
+     "对白": 110,
+     "VO": 10,
+     "OS": 10,
+     "other": 0
+    },
+    "spoken_lines": 26,
+    "english_spoken_lines": 13,
+    "cn_spoken_lines": 13,
+    "mixed_lines": 0,
+    "parenthetical_removed": 0,
+    "near_boundary": false
+   },
+   {
+    "ep": 5,
+    "count": 260,
+    "min": 100,
+    "max": 350,
+    "status": "PASS",
+    "reason": "within_range",
+    "by_tag": {
+     "对白": 240,
+     "VO": 10,
+     "OS": 10,
+     "other": 0
+    },
+    "spoken_lines": 52,
+    "english_spoken_lines": 26,
+    "cn_spoken_lines": 26,
+    "mixed_lines": 0,
+    "parenthetical_removed": 0,
+    "near_boundary": false
+   },
+   {
+    "ep": 6,
+    "count": 120,
+    "min": 100,
+    "max": 350,
+    "status": "PASS",
+    "reason": "within_range",
+    "by_tag": {
+     "对白": 100,
+     "VO": 10,
+     "OS": 10,
+     "other": 0
+    },
+    "spoken_lines": 24,
+    "english_spoken_lines": 12,
+    "cn_spoken_lines": 12,
+    "mixed_lines": 0,
+    "parenthetical_removed": 0,
+    "near_boundary": false
+   },
+   {
+    "ep": 7,
+    "count": 60,
+    "min": 100,
+    "max": 350,
+    "status": "FAIL_BELOW",
+    "reason": "below_minimum",
+    "by_tag": {
+     "对白": 40,
+     "VO": 10,
+     "OS": 10,
+     "other": 0
+    },
+    "spoken_lines": 12,
+    "english_spoken_lines": 6,
+    "cn_spoken_lines": 6,
+    "mixed_lines": 0,
+    "parenthetical_removed": 0,
+    "near_boundary": false
+   },
+   {
+    "ep": 8,
+    "count": 200,
+    "min": 100,
+    "max": 350,
+    "status": "PASS",
+    "reason": "within_range",
+    "by_tag": {
+     "对白": 180,
+     "VO": 10,
+     "OS": 10,
+     "other": 0
+    },
+    "spoken_lines": 40,
+    "english_spoken_lines": 20,
+    "cn_spoken_lines": 20,
+    "mixed_lines": 0,
+    "parenthetical_removed": 0,
+    "near_boundary": false
+   },
+   {
+    "ep": 9,
+    "count": 300,
+    "min": 100,
+    "max": 350,
+    "status": "PASS",
+    "reason": "within_range",
+    "by_tag": {
+     "对白": 280,
+     "VO": 10,
+     "OS": 10,
+     "other": 0
+    },
+    "spoken_lines": 60,
+    "english_spoken_lines": 30,
+    "cn_spoken_lines": 30,
+    "mixed_lines": 0,
+    "parenthetical_removed": 0,
+    "near_boundary": false
+   },
+   {
+    "ep": 10,
+    "count": 240,
+    "min": 100,
+    "max": 350,
+    "status": "PASS",
+    "reason": "within_range",
+    "by_tag": {
+     "对白": 220,
+     "VO": 10,
+     "OS": 10,
+     "other": 0
+    },
+    "spoken_lines": 48,
+    "english_spoken_lines": 24,
+    "cn_spoken_lines": 24,
+    "mixed_lines": 0,
+    "parenthetical_removed": 0,
+    "near_boundary": false
+   },
+   {
+    "ep": 11,
+    "count": 170,
+    "min": 100,
+    "max": 350,
+    "status": "PASS",
+    "reason": "within_range",
+    "by_tag": {
+     "对白": 150,
+     "VO": 10,
+     "OS": 10,
+     "other": 0
+    },
+    "spoken_lines": 34,
+    "english_spoken_lines": 17,
+    "cn_spoken_lines": 17,
+    "mixed_lines": 0,
+    "parenthetical_removed": 0,
+    "near_boundary": false
+   },
+   {
+    "ep": 12,
+    "count": 420,
+    "min": 100,
+    "max": 350,
+    "status": "FAIL_ABOVE",
+    "reason": "above_maximum",
+    "by_tag": {
+     "对白": 400,
+     "VO": 10,
+     "OS": 10,
+     "other": 0
+    },
+    "spoken_lines": 84,
+    "english_spoken_lines": 42,
+    "cn_spoken_lines": 42,
+    "mixed_lines": 0,
+    "parenthetical_removed": 0,
+    "near_boundary": false
+   },
+   {
+    "ep": 13,
+    "count": 140,
+    "min": 100,
+    "max": 350,
+    "status": "PASS",
+    "reason": "within_range",
+    "by_tag": {
+     "对白": 120,
+     "VO": 10,
+     "OS": 10,
+     "other": 0
+    },
+    "spoken_lines": 28,
+    "english_spoken_lines": 14,
+    "cn_spoken_lines": 14,
+    "mixed_lines": 0,
+    "parenthetical_removed": 0,
+    "near_boundary": false
+   },
+   {
+    "ep": 14,
+    "count": 320,
+    "min": 100,
+    "max": 350,
+    "status": "PASS",
+    "reason": "within_range",
+    "by_tag": {
+     "对白": 300,
+     "VO": 10,
+     "OS": 10,
+     "other": 0
+    },
+    "spoken_lines": 64,
+    "english_spoken_lines": 32,
+    "cn_spoken_lines": 32,
+    "mixed_lines": 0,
+    "parenthetical_removed": 0,
+    "near_boundary": false
+   },
+   {
+    "ep": 15,
+    "count": 190,
+    "min": 100,
+    "max": 350,
+    "status": "PASS",
+    "reason": "within_range",
+    "by_tag": {
+     "对白": 170,
+     "VO": 10,
+     "OS": 10,
+     "other": 0
+    },
+    "spoken_lines": 38,
+    "english_spoken_lines": 19,
+    "cn_spoken_lines": 19,
+    "mixed_lines": 0,
+    "parenthetical_removed": 0,
+    "near_boundary": false
+   },
+   {
+    "ep": 16,
+    "count": 110,
+    "min": 100,
+    "max": 350,
+    "status": "PASS",
+    "reason": "within_range",
+    "by_tag": {
+     "对白": 90,
+     "VO": 10,
+     "OS": 10,
+     "other": 0
+    },
+    "spoken_lines": 22,
+    "english_spoken_lines": 11,
+    "cn_spoken_lines": 11,
+    "mixed_lines": 0,
+    "parenthetical_removed": 0,
+    "near_boundary": false
+   },
+   {
+    "ep": 17,
+    "count": 230,
+    "min": 100,
+    "max": 350,
+    "status": "PASS",
+    "reason": "within_range",
+    "by_tag": {
+     "对白": 210,
+     "VO": 10,
+     "OS": 10,
+     "other": 0
+    },
+    "spoken_lines": 46,
+    "english_spoken_lines": 23,
+    "cn_spoken_lines": 23,
+    "mixed_lines": 0,
+    "parenthetical_removed": 0,
+    "near_boundary": false
+   },
+   {
+    "ep": 18,
+    "count": 160,
+    "min": 100,
+    "max": 350,
+    "status": "PASS",
+    "reason": "within_range",
+    "by_tag": {
+     "对白": 140,
+     "VO": 10,
+     "OS": 10,
+     "other": 0
+    },
+    "spoken_lines": 32,
+    "english_spoken_lines": 16,
+    "cn_spoken_lines": 16,
+    "mixed_lines": 0,
+    "parenthetical_removed": 0,
+    "near_boundary": false
+   },
+   {
+    "ep": 19,
+    "count": 280,
+    "min": 100,
+    "max": 350,
+    "status": "PASS",
+    "reason": "within_range",
+    "by_tag": {
+     "对白": 260,
+     "VO": 10,
+     "OS": 10,
+     "other": 0
+    },
+    "spoken_lines": 56,
+    "english_spoken_lines": 28,
+    "cn_spoken_lines": 28,
+    "mixed_lines": 0,
+    "parenthetical_removed": 0,
+    "near_boundary": false
+   },
+   {
+    "ep": 20,
+    "count": 210,
+    "min": 100,
+    "max": 350,
+    "status": "PASS",
+    "reason": "within_range",
+    "by_tag": {
+     "对白": 190,
+     "VO": 10,
+     "OS": 10,
+     "other": 0
+    },
+    "spoken_lines": 42,
+    "english_spoken_lines": 21,
+    "cn_spoken_lines": 21,
+    "mixed_lines": 0,
+    "parenthetical_removed": 0,
+    "near_boundary": false
+   }
+  ]
+ },
+ "spoken_words_check": {
+  "status": "RISK",
+  "pass": 18,
+  "fail_below": 1,
+  "fail_above": 1,
+  "failed_eps": [
+   7,
+   12
+  ],
+  "near_boundary_eps": [],
+  "min": 100,
+  "max": 350
+ },
+ "punctuation_check": {
+  "status": "RISK",
+  "issues": 10,
+  "must_fix": 10,
+  "warn": 0,
+  "risky_eps": [
+   3,
+   9,
+   15
+  ]
+ },
+ "atom_pacing_check": {
+  "status": "RISK",
+  "thresholds": {
+   "max_atom_run": 4,
+   "max_atoms_per_spoken": 3.0,
+   "dup_similarity": 0.5,
+   "max_dup_pairs": 1
+  },
+  "risky_eps": [
+   5
+  ],
+  "results": [
+   {
+    "ep": 1,
+    "atoms": 21,
+    "spoken": 36,
+    "ratio": 0.58,
+    "max_atom_run": 1,
+    "duplicate_pairs": 0,
+    "long_runs": [],
+    "merge_targets": [],
+    "duplicates": [],
+    "reasons": []
+   },
+   {
+    "ep": 2,
+    "atoms": 18,
+    "spoken": 30,
+    "ratio": 0.6,
+    "max_atom_run": 1,
+    "duplicate_pairs": 0,
+    "long_runs": [],
+    "merge_targets": [],
+    "duplicates": [],
+    "reasons": []
+   },
+   {
+    "ep": 3,
+    "atoms": 25,
+    "spoken": 44,
+    "ratio": 0.57,
+    "max_atom_run": 1,
+    "duplicate_pairs": 0,
+    "long_runs": [],
+    "merge_targets": [],
+    "duplicates": [],
+    "reasons": []
+   },
+   {
+    "ep": 4,
+    "atoms": 16,
+    "spoken": 26,
+    "ratio": 0.62,
+    "max_atom_run": 1,
+    "duplicate_pairs": 0,
+    "long_runs": [],
+    "merge_targets": [],
+    "duplicates": [],
+    "reasons": []
+   },
+   {
+    "ep": 5,
+    "atoms": 32,
+    "spoken": 52,
+    "ratio": 0.62,
+    "max_atom_run": 4,
+    "duplicate_pairs": 0,
+    "long_runs": [
+     {
+      "start": 39,
+      "length": 4,
+      "preview": "△ 手电光扫过仓库门缝，灰尘在光里浮动。"
+     }
+    ],
+    "merge_targets": [
+     {
+      "start": 39,
+      "length": 4,
+      "preview": "△ 手电光扫过仓库门缝，灰尘在光里浮动。"
+     }
+    ],
+    "duplicates": [],
+    "reasons": [
+     "连续无台词 △ 段达 4 条（上限 4）"
+    ]
+   },
+   {
+    "ep": 6,
+    "atoms": 15,
+    "spoken": 24,
+    "ratio": 0.62,
+    "max_atom_run": 1,
+    "duplicate_pairs": 0,
+    "long_runs": [],
+    "merge_targets": [],
+    "duplicates": [],
+    "reasons": []
+   },
+   {
+    "ep": 7,
+    "atoms": 9,
+    "spoken": 12,
+    "ratio": 0.75,
+    "max_atom_run": 1,
+    "duplicate_pairs": 0,
+    "long_runs": [],
+    "merge_targets": [],
+    "duplicates": [],
+    "reasons": []
+   },
+   {
+    "ep": 8,
+    "atoms": 23,
+    "spoken": 40,
+    "ratio": 0.57,
+    "max_atom_run": 1,
+    "duplicate_pairs": 0,
+    "long_runs": [],
+    "merge_targets": [],
+    "duplicates": [],
+    "reasons": []
+   },
+   {
+    "ep": 9,
+    "atoms": 33,
+    "spoken": 60,
+    "ratio": 0.55,
+    "max_atom_run": 1,
+    "duplicate_pairs": 0,
+    "long_runs": [],
+    "merge_targets": [],
+    "duplicates": [],
+    "reasons": []
+   },
+   {
+    "ep": 10,
+    "atoms": 28,
+    "spoken": 48,
+    "ratio": 0.58,
+    "max_atom_run": 2,
+    "duplicate_pairs": 0,
+    "long_runs": [],
+    "merge_targets": [
+     {
+      "start": 39,
+      "length": 2,
+      "preview": "△ 值班桌上的茶已经凉了，杯壁凝着水。"
+     }
+    ],
+    "duplicates": [],
+    "reasons": []
+   },
+   {
+    "ep": 11,
+    "atoms": 20,
+    "spoken": 34,
+    "ratio": 0.59,
+    "max_atom_run": 1,
+    "duplicate_pairs": 0,
+    "long_runs": [],
+    "merge_targets": [],
+    "duplicates": [],
+    "reasons": []
+   },
+   {
+    "ep": 12,
+    "atoms": 45,
+    "spoken": 84,
+    "ratio": 0.54,
+    "max_atom_run": 1,
+    "duplicate_pairs": 0,
+    "long_runs": [],
+    "merge_targets": [],
+    "duplicates": [],
+    "reasons": []
+   },
+   {
+    "ep": 13,
+    "atoms": 17,
+    "spoken": 28,
+    "ratio": 0.61,
+    "max_atom_run": 1,
+    "duplicate_pairs": 0,
+    "long_runs": [],
+    "merge_targets": [],
+    "duplicates": [],
+    "reasons": []
+   },
+   {
+    "ep": 14,
+    "atoms": 32,
+    "spoken": 64,
+    "ratio": 0.5,
+    "max_atom_run": 1,
+    "duplicate_pairs": 0,
+    "long_runs": [],
+    "merge_targets": [],
+    "duplicates": [],
+    "reasons": []
+   },
+   {
+    "ep": 15,
+    "atoms": 22,
+    "spoken": 38,
+    "ratio": 0.58,
+    "max_atom_run": 1,
+    "duplicate_pairs": 0,
+    "long_runs": [],
+    "merge_targets": [],
+    "duplicates": [],
+    "reasons": []
+   },
+   {
+    "ep": 16,
+    "atoms": 14,
+    "spoken": 22,
+    "ratio": 0.64,
+    "max_atom_run": 1,
+    "duplicate_pairs": 0,
+    "long_runs": [],
+    "merge_targets": [],
+    "duplicates": [],
+    "reasons": []
+   },
+   {
+    "ep": 17,
+    "atoms": 26,
+    "spoken": 46,
+    "ratio": 0.57,
+    "max_atom_run": 1,
+    "duplicate_pairs": 0,
+    "long_runs": [],
+    "merge_targets": [],
+    "duplicates": [],
+    "reasons": []
+   },
+   {
+    "ep": 18,
+    "atoms": 19,
+    "spoken": 32,
+    "ratio": 0.59,
+    "max_atom_run": 1,
+    "duplicate_pairs": 0,
+    "long_runs": [],
+    "merge_targets": [],
+    "duplicates": [],
+    "reasons": []
+   },
+   {
+    "ep": 19,
+    "atoms": 31,
+    "spoken": 56,
+    "ratio": 0.55,
+    "max_atom_run": 1,
+    "duplicate_pairs": 0,
+    "long_runs": [],
+    "merge_targets": [],
+    "duplicates": [],
+    "reasons": []
+   },
+   {
+    "ep": 20,
+    "atoms": 24,
+    "spoken": 42,
+    "ratio": 0.57,
+    "max_atom_run": 1,
+    "duplicate_pairs": 0,
+    "long_runs": [],
+    "merge_targets": [],
+    "duplicates": [],
+    "reasons": []
+   }
+  ]
+ },
+ "dialogue_density_check": {
+  "status": "RISK",
+  "thresholds": {
+   "max_spoken_run": 8,
+   "min_atoms_per_spoken": 0.5,
+   "spoken_floor": 10
+  },
+  "risky_eps": [
+   14
+  ],
+  "results": [
+   {
+    "ep": 1,
+    "atoms": 21,
+    "spoken": 36,
+    "ratio": 0.58,
+    "max_spoken_run": 2,
+    "dialogue_runs": [],
+    "dialogue_reasons": []
+   },
+   {
+    "ep": 2,
+    "atoms": 18,
+    "spoken": 30,
+    "ratio": 0.6,
+    "max_spoken_run": 2,
+    "dialogue_runs": [],
+    "dialogue_reasons": []
+   },
+   {
+    "ep": 3,
+    "atoms": 25,
+    "spoken": 44,
+    "ratio": 0.57,
+    "max_spoken_run": 2,
+    "dialogue_runs": [],
+    "dialogue_reasons": []
+   },
+   {
+    "ep": 4,
+    "atoms": 16,
+    "spoken": 26,
+    "ratio": 0.62,
+    "max_spoken_run": 2,
+    "dialogue_runs": [],
+    "dialogue_reasons": []
+   },
+   {
+    "ep": 5,
+    "atoms": 32,
+    "spoken": 52,
+    "ratio": 0.62,
+    "max_spoken_run": 2,
+    "dialogue_runs": [],
+    "dialogue_reasons": []
+   },
+   {
+    "ep": 6,
+    "atoms": 15,
+    "spoken": 24,
+    "ratio": 0.62,
+    "max_spoken_run": 2,
+    "dialogue_runs": [],
+    "dialogue_reasons": []
+   },
+   {
+    "ep": 7,
+    "atoms": 9,
+    "spoken": 12,
+    "ratio": 0.75,
+    "max_spoken_run": 2,
+    "dialogue_runs": [],
+    "dialogue_reasons": []
+   },
+   {
+    "ep": 8,
+    "atoms": 23,
+    "spoken": 40,
+    "ratio": 0.57,
+    "max_spoken_run": 2,
+    "dialogue_runs": [],
+    "dialogue_reasons": []
+   },
+   {
+    "ep": 9,
+    "atoms": 33,
+    "spoken": 60,
+    "ratio": 0.55,
+    "max_spoken_run": 2,
+    "dialogue_runs": [],
+    "dialogue_reasons": []
+   },
+   {
+    "ep": 10,
+    "atoms": 28,
+    "spoken": 48,
+    "ratio": 0.58,
+    "max_spoken_run": 2,
+    "dialogue_runs": [],
+    "dialogue_reasons": []
+   },
+   {
+    "ep": 11,
+    "atoms": 20,
+    "spoken": 34,
+    "ratio": 0.59,
+    "max_spoken_run": 2,
+    "dialogue_runs": [],
+    "dialogue_reasons": []
+   },
+   {
+    "ep": 12,
+    "atoms": 45,
+    "spoken": 84,
+    "ratio": 0.54,
+    "max_spoken_run": 2,
+    "dialogue_runs": [],
+    "dialogue_reasons": []
+   },
+   {
+    "ep": 13,
+    "atoms": 17,
+    "spoken": 28,
+    "ratio": 0.61,
+    "max_spoken_run": 2,
+    "dialogue_runs": [],
+    "dialogue_reasons": []
+   },
+   {
+    "ep": 14,
+    "atoms": 32,
+    "spoken": 64,
+    "ratio": 0.5,
+    "max_spoken_run": 8,
+    "dialogue_runs": [
+     {
+      "start": 98,
+      "length": 8,
+      "preview": "林砚(对白,声线压低)：谁进的仓库。"
+     }
+    ],
+    "dialogue_reasons": [
+     "连续对白段达 8 条（上限 8，段间无 △/换场）"
+    ]
+   },
+   {
+    "ep": 15,
+    "atoms": 22,
+    "spoken": 38,
+    "ratio": 0.58,
+    "max_spoken_run": 2,
+    "dialogue_runs": [],
+    "dialogue_reasons": []
+   },
+   {
+    "ep": 16,
+    "atoms": 14,
+    "spoken": 22,
+    "ratio": 0.64,
+    "max_spoken_run": 2,
+    "dialogue_runs": [],
+    "dialogue_reasons": []
+   },
+   {
+    "ep": 17,
+    "atoms": 26,
+    "spoken": 46,
+    "ratio": 0.57,
+    "max_spoken_run": 2,
+    "dialogue_runs": [],
+    "dialogue_reasons": []
+   },
+   {
+    "ep": 18,
+    "atoms": 19,
+    "spoken": 32,
+    "ratio": 0.59,
+    "max_spoken_run": 2,
+    "dialogue_runs": [],
+    "dialogue_reasons": []
+   },
+   {
+    "ep": 19,
+    "atoms": 31,
+    "spoken": 56,
+    "ratio": 0.55,
+    "max_spoken_run": 2,
+    "dialogue_runs": [],
+    "dialogue_reasons": []
+   },
+   {
+    "ep": 20,
+    "atoms": 24,
+    "spoken": 42,
+    "ratio": 0.57,
+    "max_spoken_run": 2,
+    "dialogue_runs": [],
+    "dialogue_reasons": []
+   }
+  ]
+ },
+ "culture_check": {
+  "status": "RISK",
+  "must_fix": 3,
+  "suspected": 0,
+  "info": 0,
+  "risky_eps": [
+   10
+  ]
+ },
+ "protagonist_check": {
+  "status": "BLOCKED",
+  "protagonist": "林砚",
+  "aliases": [
+   "LIN YAN"
+  ],
+  "blocked_eps": [
+   18
+  ],
+  "borderline_eps": [],
+  "skipped": false,
+  "coverage": {
+   "min_scene_ratio": 0.4,
+   "min_dialogue_ratio": 0.2,
+   "borderline_scene_ratio": 0.55,
+   "borderline_dialogue_ratio": 0.35,
+   "borderline_coverage_score": 0.45
+  },
+  "confidence": 1.0
+ },
+ "blocked_eps": [],
+ "effectiveCheckProfile": {
+  "spoken_words": {
+   "min": 100,
+   "max": 350
+  },
+  "pacing": {
+   "max_atom_run": 4,
+   "max_atoms_per_spoken": 3.0,
+   "dup_similarity": 0.5,
+   "max_dup_pairs": 1,
+   "max_spoken_run": 8,
+   "min_atoms_per_spoken": 0.5,
+   "spoken_floor": 10
+  },
+  "culture": {
+   "forbid_cn_elements": true,
+   "allowed_terms": []
+  }
+ },
+ "checkProfileSource": "default",
+ "checkProfileWarnings": [],
+ "episodes": [
+  {
+   "ep": 1,
+   "title": "第1集《雾港》",
+   "start_paragraph": 15,
+   "end_paragraph_exclusive": 83
+  }
+ ],
+ "checks_index": "work/preflight/index.json"
+}

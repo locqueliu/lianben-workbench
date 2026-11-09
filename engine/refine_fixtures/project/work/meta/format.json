@@ -1,0 +1,38 @@
+{
+ "version": 1,
+ "schema": "lianben/format/1",
+ "provenance": "machine",
+ "confidence": 0.999,
+ "episode": {
+  "header_pattern": "^第\\s*(\\d+)\\s*集",
+  "en_pattern": "(?i:episode)\\s*\\d+"
+ },
+ "scene_pattern": "^(\\d{1,3})\\s*[-－—–]\\s*(\\d{1,3})\\s+(?=\\S)",
+ "dialogue_patterns": {
+  "cn": "^(?P<who>[^：:（）()]{1,40})\\s*[（(]\\s*(?P<label>对白|台词|对话|VO|V\\.O\\.|OS|O\\.S\\.|画外音|旁白)[^）)]*[）)]\\s*[：:]\\s*(?P<text>.+)$",
+  "en": "^(?P<who>[A-Z][A-Z0-9 .'\\-]{1,40})\\s*\\(\\s*(?P<label>DIALOGUE|DIALOG|VO|OS|V\\.O\\.|O\\.S\\.)\\s*\\)\\s*[：:]\\s*(?P<text>.+)$"
+ },
+ "locked_line_patterns": [
+  "^第\\s*\\d+\\s*集",
+  "(?i:episode)\\s*\\d+",
+  "^\\d+\\s*[-－]\\s*\\d+",
+  "^(?:出场人物|人物)\\s*[：:]",
+  "^(?:SPECTACLE|VFX|HERO)\\b",
+  "^【"
+ ],
+ "speaker": {
+  "colon": "[：:]",
+  "labels": [
+   "对白",
+   "VO",
+   "OS"
+  ]
+ },
+ "atom": {
+  "prefixes": [
+   "△"
+  ]
+ },
+ "source_sha256": "3a835732a604e84fb62642bc62dea68a85c0f805154d0782a3a610a4adaab6cd",
+ "generated_at": "2026-11-06T18:38:24+08:00"
+}

@@ -1,0 +1,18 @@
+{
+ "ep": 1,
+ "verdict": "pass",
+ "fails": [],
+ "warnings": [],
+ "stats": {
+  "scenes_found": [
+   "1-1",
+   "1-2",
+   "1-3"
+  ],
+  "key": "A小调",
+  "bpm_max": 92,
+  "chars": 183,
+  "title": "第1集｜雾港、冷雾、暗红"
+ },
+ "mock": true
+}

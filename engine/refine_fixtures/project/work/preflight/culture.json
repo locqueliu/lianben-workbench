@@ -1,0 +1,59 @@
+{
+ "version": 1,
+ "profile": {
+  "market": "overseas",
+  "setting": "以 SOURCE 为准",
+  "forbid_cn_elements": true,
+  "allowed_terms": []
+ },
+ "profile_path": "culture-profile.json",
+ "rule": "SOURCE 未建立的中式元素、东方动作/礼仪（跪礼、叩首、拱手等）不得作为新增内容；台词锁定项只报告。",
+ "blocking": false,
+ "summary": {
+  "status": "RISK",
+  "must_fix": 3,
+  "suspected": 0,
+  "info": 0,
+  "risky_eps": [
+   10
+  ]
+ },
+ "results": [
+  {
+   "ep": 10,
+   "paragraph": 637,
+   "line_index": 6,
+   "term": "筷子",
+   "category": "器物",
+   "kind": "dialogue",
+   "severity": "must_fix",
+   "fixable": false,
+   "context": "林砚(对白,声线压低)：把筷子放下。",
+   "suggestion": "台词逐字锁定，不能自动改；需人工修改源稿或由用户授权调整。"
+  },
+  {
+   "ep": 10,
+   "paragraph": 671,
+   "line_index": 40,
+   "term": "双膝跪地",
+   "category": "礼仪动作",
+   "kind": "action",
+   "severity": "must_fix",
+   "fixable": true,
+   "context": "△ 他双膝跪地，叩首三次，额头贴在冰冷的地面上。",
+   "suggestion": "确认是否为 SOURCE 已建立的跪礼；若未建立，改为单膝、蹲下、后退、低头等中性动作。"
+  },
+  {
+   "ep": 10,
+   "paragraph": 671,
+   "line_index": 40,
+   "term": "叩首",
+   "category": "礼仪动作",
+   "kind": "action",
+   "severity": "must_fix",
+   "fixable": true,
+   "context": "△ 他双膝跪地，叩首三次，额头贴在冰冷的地面上。",
+   "suggestion": "确认是否为 SOURCE 已建立的跪礼；若未建立，改为单膝、蹲下、后退、低头等中性动作。"
+  }
+ ]
+}

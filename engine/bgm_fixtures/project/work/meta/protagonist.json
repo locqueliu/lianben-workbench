@@ -1,0 +1,38 @@
+{
+ "schema": "lianben/protagonist/1",
+ "protagonist": "林砚",
+ "aliases": [
+  "LIN YAN"
+ ],
+ "source": "auto",
+ "confidence": 1.0,
+ "evidence": {
+  "dialogue_lines": 270,
+  "episodes": 20,
+  "first_billed": "林砚",
+  "first_votes": 20,
+  "top_speakers": [
+   [
+    "LIN YAN",
+    270
+   ],
+   [
+    "林砚",
+    270
+   ],
+   [
+    "SU WAN",
+    70
+   ],
+   [
+    "苏晚",
+    70
+   ],
+   [
+    "ZHOU XU",
+    40
+   ]
+  ]
+ },
+ "updated_at": "2026-11-06T18:38:24+08:00"
+}

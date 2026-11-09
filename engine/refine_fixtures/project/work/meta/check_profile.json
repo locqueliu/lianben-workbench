@@ -1,0 +1,24 @@
+{
+ "schema": "lianben/check-profile/1",
+ "source": "default",
+ "effective": {
+  "spoken_words": {
+   "min": 100,
+   "max": 350
+  },
+  "pacing": {
+   "max_atom_run": 4,
+   "max_atoms_per_spoken": 3.0,
+   "dup_similarity": 0.5,
+   "max_dup_pairs": 1,
+   "max_spoken_run": 8,
+   "min_atoms_per_spoken": 0.5,
+   "spoken_floor": 10
+  },
+  "culture": {
+   "forbid_cn_elements": true,
+   "allowed_terms": []
+  }
+ },
+ "warnings": []
+}

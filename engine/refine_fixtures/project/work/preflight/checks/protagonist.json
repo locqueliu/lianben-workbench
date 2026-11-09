@@ -1,0 +1,1024 @@
+{
+ "schema": "lianben/check/1",
+ "check": "protagonist",
+ "version": "1.0",
+ "run_id": "20261106_183824_4f24",
+ "generated_at": "2026-11-06T18:38:24+08:00",
+ "check_basis": "standardized",
+ "source_sha256": "3a835732a604e84fb62642bc62dea68a85c0f805154d0782a3a610a4adaab6cd",
+ "config_hash": "095c8e1c1df8fc07a06369231005b75d4851a2739c22233ce4b868cad477509a",
+ "status": "BLOCKED",
+ "blocking": true,
+ "summary": {
+  "status": "BLOCKED",
+  "protagonist": "林砚",
+  "aliases": [
+   "LIN YAN"
+  ],
+  "blocked_eps": [
+   18
+  ],
+  "borderline_eps": [],
+  "skipped": false,
+  "coverage": {
+   "min_scene_ratio": 0.4,
+   "min_dialogue_ratio": 0.2,
+   "borderline_scene_ratio": 0.55,
+   "borderline_dialogue_ratio": 0.35,
+   "borderline_coverage_score": 0.45
+  },
+  "confidence": 1.0
+ },
+ "results": [
+  {
+   "ep": 1,
+   "scenes": 3,
+   "protagonist_scenes": 3,
+   "scene_ratio": 1.0,
+   "dialogue_lines": 36,
+   "protagonist_dialogue_lines": 24,
+   "dialogue_ratio": 0.667,
+   "action_lines": 21,
+   "protagonist_action_lines": 2,
+   "action_ratio": 0.095,
+   "coverage_score": 0.719,
+   "status": "OK",
+   "reason": "",
+   "scene_map": [
+    {
+     "scene": "1-1",
+     "has_protagonist": true,
+     "evidence": [
+      "VO",
+      "△",
+      "人物",
+      "对白"
+     ]
+    },
+    {
+     "scene": "1-2",
+     "has_protagonist": true,
+     "evidence": [
+      "人物",
+      "对白"
+     ]
+    },
+    {
+     "scene": "1-3",
+     "has_protagonist": true,
+     "evidence": [
+      "△",
+      "人物",
+      "对白"
+     ]
+    }
+   ],
+   "entered": false,
+   "blocked": false
+  },
+  {
+   "ep": 2,
+   "scenes": 3,
+   "protagonist_scenes": 3,
+   "scene_ratio": 1.0,
+   "dialogue_lines": 30,
+   "protagonist_dialogue_lines": 22,
+   "dialogue_ratio": 0.733,
+   "action_lines": 18,
+   "protagonist_action_lines": 2,
+   "action_ratio": 0.111,
+   "coverage_score": 0.742,
+   "status": "OK",
+   "reason": "",
+   "scene_map": [
+    {
+     "scene": "2-1",
+     "has_protagonist": true,
+     "evidence": [
+      "VO",
+      "△",
+      "人物",
+      "对白"
+     ]
+    },
+    {
+     "scene": "2-2",
+     "has_protagonist": true,
+     "evidence": [
+      "人物",
+      "对白"
+     ]
+    },
+    {
+     "scene": "2-3",
+     "has_protagonist": true,
+     "evidence": [
+      "OS",
+      "△",
+      "人物",
+      "对白"
+     ]
+    }
+   ],
+   "entered": false,
+   "blocked": false
+  },
+  {
+   "ep": 3,
+   "scenes": 3,
+   "protagonist_scenes": 3,
+   "scene_ratio": 1.0,
+   "dialogue_lines": 44,
+   "protagonist_dialogue_lines": 30,
+   "dialogue_ratio": 0.682,
+   "action_lines": 25,
+   "protagonist_action_lines": 2,
+   "action_ratio": 0.08,
+   "coverage_score": 0.721,
+   "status": "OK",
+   "reason": "",
+   "scene_map": [
+    {
+     "scene": "3-1",
+     "has_protagonist": true,
+     "evidence": [
+      "VO",
+      "△",
+      "人物",
+      "对白"
+     ]
+    },
+    {
+     "scene": "3-2",
+     "has_protagonist": true,
+     "evidence": [
+      "△",
+      "人物",
+      "对白"
+     ]
+    },
+    {
+     "scene": "3-3",
+     "has_protagonist": true,
+     "evidence": [
+      "人物",
+      "对白"
+     ]
+    }
+   ],
+   "entered": false,
+   "blocked": false
+  },
+  {
+   "ep": 4,
+   "scenes": 3,
+   "protagonist_scenes": 3,
+   "scene_ratio": 1.0,
+   "dialogue_lines": 26,
+   "protagonist_dialogue_lines": 18,
+   "dialogue_ratio": 0.692,
+   "action_lines": 16,
+   "protagonist_action_lines": 1,
+   "action_ratio": 0.062,
+   "coverage_score": 0.72,
+   "status": "OK",
+   "reason": "",
+   "scene_map": [
+    {
+     "scene": "4-1",
+     "has_protagonist": true,
+     "evidence": [
+      "VO",
+      "人物",
+      "对白"
+     ]
+    },
+    {
+     "scene": "4-2",
+     "has_protagonist": true,
+     "evidence": [
+      "△",
+      "人物",
+      "对白"
+     ]
+    },
+    {
+     "scene": "4-3",
+     "has_protagonist": true,
+     "evidence": [
+      "OS",
+      "人物",
+      "对白"
+     ]
+    }
+   ],
+   "entered": false,
+   "blocked": false
+  },
+  {
+   "ep": 5,
+   "scenes": 3,
+   "protagonist_scenes": 3,
+   "scene_ratio": 1.0,
+   "dialogue_lines": 52,
+   "protagonist_dialogue_lines": 36,
+   "dialogue_ratio": 0.692,
+   "action_lines": 32,
+   "protagonist_action_lines": 3,
+   "action_ratio": 0.094,
+   "coverage_score": 0.726,
+   "status": "OK",
+   "reason": "",
+   "scene_map": [
+    {
+     "scene": "5-1",
+     "has_protagonist": true,
+     "evidence": [
+      "VO",
+      "△",
+      "人物",
+      "对白"
+     ]
+    },
+    {
+     "scene": "5-2",
+     "has_protagonist": true,
+     "evidence": [
+      "△",
+      "人物",
+      "对白"
+     ]
+    },
+    {
+     "scene": "5-3",
+     "has_protagonist": true,
+     "evidence": [
+      "OS",
+      "△",
+      "人物",
+      "对白"
+     ]
+    }
+   ],
+   "entered": false,
+   "blocked": false
+  },
+  {
+   "ep": 6,
+   "scenes": 3,
+   "protagonist_scenes": 3,
+   "scene_ratio": 1.0,
+   "dialogue_lines": 24,
+   "protagonist_dialogue_lines": 16,
+   "dialogue_ratio": 0.667,
+   "action_lines": 15,
+   "protagonist_action_lines": 1,
+   "action_ratio": 0.067,
+   "coverage_score": 0.713,
+   "status": "OK",
+   "reason": "",
+   "scene_map": [
+    {
+     "scene": "6-1",
+     "has_protagonist": true,
+     "evidence": [
+      "VO",
+      "△",
+      "人物",
+      "对白"
+     ]
+    },
+    {
+     "scene": "6-2",
+     "has_protagonist": true,
+     "evidence": [
+      "人物",
+      "对白"
+     ]
+    },
+    {
+     "scene": "6-3",
+     "has_protagonist": true,
+     "evidence": [
+      "人物",
+      "对白"
+     ]
+    }
+   ],
+   "entered": false,
+   "blocked": false
+  },
+  {
+   "ep": 7,
+   "scenes": 3,
+   "protagonist_scenes": 3,
+   "scene_ratio": 1.0,
+   "dialogue_lines": 12,
+   "protagonist_dialogue_lines": 8,
+   "dialogue_ratio": 0.667,
+   "action_lines": 9,
+   "protagonist_action_lines": 1,
+   "action_ratio": 0.111,
+   "coverage_score": 0.722,
+   "status": "OK",
+   "reason": "",
+   "scene_map": [
+    {
+     "scene": "7-1",
+     "has_protagonist": true,
+     "evidence": [
+      "VO",
+      "△",
+      "人物",
+      "对白"
+     ]
+    },
+    {
+     "scene": "7-2",
+     "has_protagonist": true,
+     "evidence": [
+      "人物",
+      "对白"
+     ]
+    },
+    {
+     "scene": "7-3",
+     "has_protagonist": true,
+     "evidence": [
+      "人物",
+      "对白"
+     ]
+    }
+   ],
+   "entered": false,
+   "blocked": false
+  },
+  {
+   "ep": 8,
+   "scenes": 3,
+   "protagonist_scenes": 3,
+   "scene_ratio": 1.0,
+   "dialogue_lines": 40,
+   "protagonist_dialogue_lines": 28,
+   "dialogue_ratio": 0.7,
+   "action_lines": 23,
+   "protagonist_action_lines": 2,
+   "action_ratio": 0.087,
+   "coverage_score": 0.727,
+   "status": "OK",
+   "reason": "",
+   "scene_map": [
+    {
+     "scene": "8-1",
+     "has_protagonist": true,
+     "evidence": [
+      "VO",
+      "人物",
+      "对白"
+     ]
+    },
+    {
+     "scene": "8-2",
+     "has_protagonist": true,
+     "evidence": [
+      "△",
+      "人物",
+      "对白"
+     ]
+    },
+    {
+     "scene": "8-3",
+     "has_protagonist": true,
+     "evidence": [
+      "OS",
+      "△",
+      "人物",
+      "对白"
+     ]
+    }
+   ],
+   "entered": false,
+   "blocked": false
+  },
+  {
+   "ep": 9,
+   "scenes": 3,
+   "protagonist_scenes": 3,
+   "scene_ratio": 1.0,
+   "dialogue_lines": 60,
+   "protagonist_dialogue_lines": 40,
+   "dialogue_ratio": 0.667,
+   "action_lines": 33,
+   "protagonist_action_lines": 3,
+   "action_ratio": 0.091,
+   "coverage_score": 0.718,
+   "status": "OK",
+   "reason": "",
+   "scene_map": [
+    {
+     "scene": "9-1",
+     "has_protagonist": true,
+     "evidence": [
+      "VO",
+      "△",
+      "人物",
+      "对白"
+     ]
+    },
+    {
+     "scene": "9-2",
+     "has_protagonist": true,
+     "evidence": [
+      "△",
+      "人物",
+      "对白"
+     ]
+    },
+    {
+     "scene": "9-3",
+     "has_protagonist": true,
+     "evidence": [
+      "△",
+      "人物",
+      "对白"
+     ]
+    }
+   ],
+   "entered": false,
+   "blocked": false
+  },
+  {
+   "ep": 10,
+   "scenes": 3,
+   "protagonist_scenes": 3,
+   "scene_ratio": 1.0,
+   "dialogue_lines": 48,
+   "protagonist_dialogue_lines": 32,
+   "dialogue_ratio": 0.667,
+   "action_lines": 28,
+   "protagonist_action_lines": 2,
+   "action_ratio": 0.071,
+   "coverage_score": 0.714,
+   "status": "OK",
+   "reason": "",
+   "scene_map": [
+    {
+     "scene": "10-1",
+     "has_protagonist": true,
+     "evidence": [
+      "VO",
+      "△",
+      "人物",
+      "对白"
+     ]
+    },
+    {
+     "scene": "10-2",
+     "has_protagonist": true,
+     "evidence": [
+      "△",
+      "人物",
+      "对白"
+     ]
+    },
+    {
+     "scene": "10-3",
+     "has_protagonist": true,
+     "evidence": [
+      "人物",
+      "对白"
+     ]
+    }
+   ],
+   "entered": false,
+   "blocked": false
+  },
+  {
+   "ep": 11,
+   "scenes": 3,
+   "protagonist_scenes": 3,
+   "scene_ratio": 1.0,
+   "dialogue_lines": 34,
+   "protagonist_dialogue_lines": 24,
+   "dialogue_ratio": 0.706,
+   "action_lines": 20,
+   "protagonist_action_lines": 2,
+   "action_ratio": 0.1,
+   "coverage_score": 0.732,
+   "status": "OK",
+   "reason": "",
+   "scene_map": [
+    {
+     "scene": "11-1",
+     "has_protagonist": true,
+     "evidence": [
+      "VO",
+      "△",
+      "人物",
+      "对白"
+     ]
+    },
+    {
+     "scene": "11-2",
+     "has_protagonist": true,
+     "evidence": [
+      "△",
+      "人物",
+      "对白"
+     ]
+    },
+    {
+     "scene": "11-3",
+     "has_protagonist": true,
+     "evidence": [
+      "OS",
+      "人物",
+      "对白"
+     ]
+    }
+   ],
+   "entered": false,
+   "blocked": false
+  },
+  {
+   "ep": 12,
+   "scenes": 3,
+   "protagonist_scenes": 3,
+   "scene_ratio": 1.0,
+   "dialogue_lines": 84,
+   "protagonist_dialogue_lines": 56,
+   "dialogue_ratio": 0.667,
+   "action_lines": 45,
+   "protagonist_action_lines": 3,
+   "action_ratio": 0.067,
+   "coverage_score": 0.713,
+   "status": "OK",
+   "reason": "",
+   "scene_map": [
+    {
+     "scene": "12-1",
+     "has_protagonist": true,
+     "evidence": [
+      "VO",
+      "△",
+      "人物",
+      "对白"
+     ]
+    },
+    {
+     "scene": "12-2",
+     "has_protagonist": true,
+     "evidence": [
+      "△",
+      "人物",
+      "对白"
+     ]
+    },
+    {
+     "scene": "12-3",
+     "has_protagonist": true,
+     "evidence": [
+      "△",
+      "人物",
+      "对白"
+     ]
+    }
+   ],
+   "entered": false,
+   "blocked": false
+  },
+  {
+   "ep": 13,
+   "scenes": 3,
+   "protagonist_scenes": 3,
+   "scene_ratio": 1.0,
+   "dialogue_lines": 28,
+   "protagonist_dialogue_lines": 20,
+   "dialogue_ratio": 0.714,
+   "action_lines": 17,
+   "protagonist_action_lines": 1,
+   "action_ratio": 0.059,
+   "coverage_score": 0.726,
+   "status": "OK",
+   "reason": "",
+   "scene_map": [
+    {
+     "scene": "13-1",
+     "has_protagonist": true,
+     "evidence": [
+      "VO",
+      "人物",
+      "对白"
+     ]
+    },
+    {
+     "scene": "13-2",
+     "has_protagonist": true,
+     "evidence": [
+      "△",
+      "人物",
+      "对白"
+     ]
+    },
+    {
+     "scene": "13-3",
+     "has_protagonist": true,
+     "evidence": [
+      "OS",
+      "人物",
+      "对白"
+     ]
+    }
+   ],
+   "entered": false,
+   "blocked": false
+  },
+  {
+   "ep": 14,
+   "scenes": 3,
+   "protagonist_scenes": 3,
+   "scene_ratio": 1.0,
+   "dialogue_lines": 64,
+   "protagonist_dialogue_lines": 44,
+   "dialogue_ratio": 0.688,
+   "action_lines": 32,
+   "protagonist_action_lines": 3,
+   "action_ratio": 0.094,
+   "coverage_score": 0.725,
+   "status": "OK",
+   "reason": "",
+   "scene_map": [
+    {
+     "scene": "14-1",
+     "has_protagonist": true,
+     "evidence": [
+      "VO",
+      "△",
+      "人物",
+      "对白"
+     ]
+    },
+    {
+     "scene": "14-2",
+     "has_protagonist": true,
+     "evidence": [
+      "△",
+      "人物",
+      "对白"
+     ]
+    },
+    {
+     "scene": "14-3",
+     "has_protagonist": true,
+     "evidence": [
+      "OS",
+      "人物",
+      "对白"
+     ]
+    }
+   ],
+   "entered": false,
+   "blocked": false
+  },
+  {
+   "ep": 15,
+   "scenes": 3,
+   "protagonist_scenes": 3,
+   "scene_ratio": 1.0,
+   "dialogue_lines": 38,
+   "protagonist_dialogue_lines": 26,
+   "dialogue_ratio": 0.684,
+   "action_lines": 22,
+   "protagonist_action_lines": 2,
+   "action_ratio": 0.091,
+   "coverage_score": 0.723,
+   "status": "OK",
+   "reason": "",
+   "scene_map": [
+    {
+     "scene": "15-1",
+     "has_protagonist": true,
+     "evidence": [
+      "VO",
+      "△",
+      "人物",
+      "对白"
+     ]
+    },
+    {
+     "scene": "15-2",
+     "has_protagonist": true,
+     "evidence": [
+      "△",
+      "人物",
+      "对白"
+     ]
+    },
+    {
+     "scene": "15-3",
+     "has_protagonist": true,
+     "evidence": [
+      "OS",
+      "人物",
+      "对白"
+     ]
+    }
+   ],
+   "entered": false,
+   "blocked": false
+  },
+  {
+   "ep": 16,
+   "scenes": 3,
+   "protagonist_scenes": 3,
+   "scene_ratio": 1.0,
+   "dialogue_lines": 22,
+   "protagonist_dialogue_lines": 16,
+   "dialogue_ratio": 0.727,
+   "action_lines": 14,
+   "protagonist_action_lines": 1,
+   "action_ratio": 0.071,
+   "coverage_score": 0.732,
+   "status": "OK",
+   "reason": "",
+   "scene_map": [
+    {
+     "scene": "16-1",
+     "has_protagonist": true,
+     "evidence": [
+      "VO",
+      "人物",
+      "对白"
+     ]
+    },
+    {
+     "scene": "16-2",
+     "has_protagonist": true,
+     "evidence": [
+      "人物",
+      "对白"
+     ]
+    },
+    {
+     "scene": "16-3",
+     "has_protagonist": true,
+     "evidence": [
+      "OS",
+      "△",
+      "人物",
+      "对白"
+     ]
+    }
+   ],
+   "entered": false,
+   "blocked": false
+  },
+  {
+   "ep": 17,
+   "scenes": 3,
+   "protagonist_scenes": 3,
+   "scene_ratio": 1.0,
+   "dialogue_lines": 46,
+   "protagonist_dialogue_lines": 32,
+   "dialogue_ratio": 0.696,
+   "action_lines": 26,
+   "protagonist_action_lines": 2,
+   "action_ratio": 0.077,
+   "coverage_score": 0.724,
+   "status": "OK",
+   "reason": "",
+   "scene_map": [
+    {
+     "scene": "17-1",
+     "has_protagonist": true,
+     "evidence": [
+      "VO",
+      "△",
+      "人物",
+      "对白"
+     ]
+    },
+    {
+     "scene": "17-2",
+     "has_protagonist": true,
+     "evidence": [
+      "人物",
+      "对白"
+     ]
+    },
+    {
+     "scene": "17-3",
+     "has_protagonist": true,
+     "evidence": [
+      "OS",
+      "△",
+      "人物",
+      "对白"
+     ]
+    }
+   ],
+   "entered": false,
+   "blocked": false
+  },
+  {
+   "ep": 18,
+   "scenes": 3,
+   "protagonist_scenes": 2,
+   "scene_ratio": 0.667,
+   "dialogue_lines": 32,
+   "protagonist_dialogue_lines": 0,
+   "dialogue_ratio": 0.0,
+   "action_lines": 19,
+   "protagonist_action_lines": 2,
+   "action_ratio": 0.105,
+   "coverage_score": 0.354,
+   "status": "LOW_PROTAGONIST",
+   "reason": "dialogue_ratio 0.000 < 0.2",
+   "scene_map": [
+    {
+     "scene": "18-1",
+     "has_protagonist": true,
+     "evidence": [
+      "△",
+      "人物"
+     ]
+    },
+    {
+     "scene": "18-2",
+     "has_protagonist": false,
+     "evidence": []
+    },
+    {
+     "scene": "18-3",
+     "has_protagonist": true,
+     "evidence": [
+      "△"
+     ]
+    }
+   ],
+   "entered": false,
+   "blocked": true
+  },
+  {
+   "ep": 19,
+   "scenes": 3,
+   "protagonist_scenes": 3,
+   "scene_ratio": 1.0,
+   "dialogue_lines": 56,
+   "protagonist_dialogue_lines": 38,
+   "dialogue_ratio": 0.679,
+   "action_lines": 31,
+   "protagonist_action_lines": 3,
+   "action_ratio": 0.097,
+   "coverage_score": 0.723,
+   "status": "OK",
+   "reason": "",
+   "scene_map": [
+    {
+     "scene": "19-1",
+     "has_protagonist": true,
+     "evidence": [
+      "VO",
+      "△",
+      "人物",
+      "对白"
+     ]
+    },
+    {
+     "scene": "19-2",
+     "has_protagonist": true,
+     "evidence": [
+      "△",
+      "人物",
+      "对白"
+     ]
+    },
+    {
+     "scene": "19-3",
+     "has_protagonist": true,
+     "evidence": [
+      "△",
+      "人物",
+      "对白"
+     ]
+    }
+   ],
+   "entered": false,
+   "blocked": false
+  },
+  {
+   "ep": 20,
+   "scenes": 3,
+   "protagonist_scenes": 3,
+   "scene_ratio": 1.0,
+   "dialogue_lines": 42,
+   "protagonist_dialogue_lines": 30,
+   "dialogue_ratio": 0.714,
+   "action_lines": 24,
+   "protagonist_action_lines": 2,
+   "action_ratio": 0.083,
+   "coverage_score": 0.731,
+   "status": "OK",
+   "reason": "",
+   "scene_map": [
+    {
+     "scene": "20-1",
+     "has_protagonist": true,
+     "evidence": [
+      "VO",
+      "人物",
+      "对白"
+     ]
+    },
+    {
+     "scene": "20-2",
+     "has_protagonist": true,
+     "evidence": [
+      "△",
+      "人物",
+      "对白"
+     ]
+    },
+    {
+     "scene": "20-3",
+     "has_protagonist": true,
+     "evidence": [
+      "OS",
+      "△",
+      "人物",
+      "对白"
+     ]
+    }
+   ],
+   "entered": false,
+   "blocked": false
+  }
+ ],
+ "compat": {
+  "legacy_file": "work/preflight/protagonist.json"
+ },
+ "blocked_eps": [
+  18
+ ],
+ "risky_eps": [
+  18
+ ],
+ "profile": {
+  "protagonist": "林砚",
+  "aliases": [
+   "LIN YAN"
+  ],
+  "source": "auto",
+  "confidence": 1.0,
+  "evidence": {
+   "dialogue_lines": 270,
+   "episodes": 20,
+   "first_billed": "林砚",
+   "first_votes": 20,
+   "top_speakers": [
+    [
+     "LIN YAN",
+     270
+    ],
+    [
+     "林砚",
+     270
+    ],
+    [
+     "SU WAN",
+     70
+    ],
+    [
+     "苏晚",
+     70
+    ],
+    [
+     "ZHOU XU",
+     40
+    ]
+   ]
+  }
+ },
+ "progress_blocked": {
+  "1": false,
+  "2": false,
+  "3": false,
+  "4": false,
+  "5": false,
+  "6": false,
+  "7": false,
+  "8": false,
+  "9": false,
+  "10": false,
+  "11": false,
+  "12": false,
+  "13": false,
+  "14": false,
+  "15": false,
+  "16": false,
+  "17": false,
+  "18": true,
+  "19": false,
+  "20": false
+ }
+}

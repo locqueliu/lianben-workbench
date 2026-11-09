@@ -1,0 +1,29 @@
+{
+  "meta": {
+    "title": "Lianben Workbench",
+    "description": "Lianben Workbench v1.0: import, preflight, refine, BGM, live output, cost and legacy migration."
+  },
+  "panel": {
+    "label": "Lianben Workbench"
+  },
+  "page": {
+    "title": "Lianben Workbench · M0 Platform Verification",
+    "subtitle": "Sidebar entry, authenticated fetch routes, streaming upload, hosted Python and streaming LLM.",
+    "run": "Run checks",
+    "rerun": "Run again",
+    "hostSelfCheck": "Host self-check",
+    "spike": {
+      "slots": "Sidebar entry + page",
+      "health": "Authenticated route",
+      "upload": "Streaming upload",
+      "sse": "SSE progress stream",
+      "clientReport": "Client report delivery",
+      "python": "Hosted Python + python-docx",
+      "llm": "Streaming LLM call"
+    },
+    "pending": "pending",
+    "pass": "pass",
+    "fail": "fail",
+    "empty": "Open the Lianben Workbench from the left sidebar to run the M0 verification."
+  }
+}

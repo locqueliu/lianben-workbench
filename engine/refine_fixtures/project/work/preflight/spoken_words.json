@@ -1,0 +1,413 @@
+{
+ "rule": "100 <= english_spoken_words <= 350 per episode",
+ "unit_definition": "只统计英文有声台词（对白/VO/OS/DIALOGUE/DIALOG）正文的英文单词；中文台词与锁行/△ 不计；连字符与撇号=1 词、全大写缩写=1 词、纯数字不计、a.m.=2 词；成对括号表演提示不计；重复演出按发声次数累计。",
+ "min": 100,
+ "max": 350,
+ "failed_eps": [
+  7,
+  12
+ ],
+ "results": [
+  {
+   "ep": 1,
+   "count": 180,
+   "min": 100,
+   "max": 350,
+   "status": "PASS",
+   "reason": "within_range",
+   "by_tag": {
+    "对白": 160,
+    "VO": 10,
+    "OS": 10,
+    "other": 0
+   },
+   "spoken_lines": 36,
+   "english_spoken_lines": 18,
+   "cn_spoken_lines": 18,
+   "mixed_lines": 0,
+   "parenthetical_removed": 0,
+   "near_boundary": false
+  },
+  {
+   "ep": 2,
+   "count": 150,
+   "min": 100,
+   "max": 350,
+   "status": "PASS",
+   "reason": "within_range",
+   "by_tag": {
+    "对白": 130,
+    "VO": 10,
+    "OS": 10,
+    "other": 0
+   },
+   "spoken_lines": 30,
+   "english_spoken_lines": 15,
+   "cn_spoken_lines": 15,
+   "mixed_lines": 0,
+   "parenthetical_removed": 0,
+   "near_boundary": false
+  },
+  {
+   "ep": 3,
+   "count": 220,
+   "min": 100,
+   "max": 350,
+   "status": "PASS",
+   "reason": "within_range",
+   "by_tag": {
+    "对白": 200,
+    "VO": 10,
+    "OS": 10,
+    "other": 0
+   },
+   "spoken_lines": 44,
+   "english_spoken_lines": 22,
+   "cn_spoken_lines": 22,
+   "mixed_lines": 0,
+   "parenthetical_removed": 0,
+   "near_boundary": false
+  },
+  {
+   "ep": 4,
+   "count": 130,
+   "min": 100,
+   "max": 350,
+   "status": "PASS",
+   "reason": "within_range",
+   "by_tag": {
+    "对白": 110,
+    "VO": 10,
+    "OS": 10,
+    "other": 0
+   },
+   "spoken_lines": 26,
+   "english_spoken_lines": 13,
+   "cn_spoken_lines": 13,
+   "mixed_lines": 0,
+   "parenthetical_removed": 0,
+   "near_boundary": false
+  },
+  {
+   "ep": 5,
+   "count": 260,
+   "min": 100,
+   "max": 350,
+   "status": "PASS",
+   "reason": "within_range",
+   "by_tag": {
+    "对白": 240,
+    "VO": 10,
+    "OS": 10,
+    "other": 0
+   },
+   "spoken_lines": 52,
+   "english_spoken_lines": 26,
+   "cn_spoken_lines": 26,
+   "mixed_lines": 0,
+   "parenthetical_removed": 0,
+   "near_boundary": false
+  },
+  {
+   "ep": 6,
+   "count": 120,
+   "min": 100,
+   "max": 350,
+   "status": "PASS",
+   "reason": "within_range",
+   "by_tag": {
+    "对白": 100,
+    "VO": 10,
+    "OS": 10,
+    "other": 0
+   },
+   "spoken_lines": 24,
+   "english_spoken_lines": 12,
+   "cn_spoken_lines": 12,
+   "mixed_lines": 0,
+   "parenthetical_removed": 0,
+   "near_boundary": false
+  },
+  {
+   "ep": 7,
+   "count": 60,
+   "min": 100,
+   "max": 350,
+   "status": "FAIL_BELOW",
+   "reason": "below_minimum",
+   "by_tag": {
+    "对白": 40,
+    "VO": 10,
+    "OS": 10,
+    "other": 0
+   },
+   "spoken_lines": 12,
+   "english_spoken_lines": 6,
+   "cn_spoken_lines": 6,
+   "mixed_lines": 0,
+   "parenthetical_removed": 0,
+   "near_boundary": false
+  },
+  {
+   "ep": 8,
+   "count": 200,
+   "min": 100,
+   "max": 350,
+   "status": "PASS",
+   "reason": "within_range",
+   "by_tag": {
+    "对白": 180,
+    "VO": 10,
+    "OS": 10,
+    "other": 0
+   },
+   "spoken_lines": 40,
+   "english_spoken_lines": 20,
+   "cn_spoken_lines": 20,
+   "mixed_lines": 0,
+   "parenthetical_removed": 0,
+   "near_boundary": false
+  },
+  {
+   "ep": 9,
+   "count": 300,
+   "min": 100,
+   "max": 350,
+   "status": "PASS",
+   "reason": "within_range",
+   "by_tag": {
+    "对白": 280,
+    "VO": 10,
+    "OS": 10,
+    "other": 0
+   },
+   "spoken_lines": 60,
+   "english_spoken_lines": 30,
+   "cn_spoken_lines": 30,
+   "mixed_lines": 0,
+   "parenthetical_removed": 0,
+   "near_boundary": false
+  },
+  {
+   "ep": 10,
+   "count": 240,
+   "min": 100,
+   "max": 350,
+   "status": "PASS",
+   "reason": "within_range",
+   "by_tag": {
+    "对白": 220,
+    "VO": 10,
+    "OS": 10,
+    "other": 0
+   },
+   "spoken_lines": 48,
+   "english_spoken_lines": 24,
+   "cn_spoken_lines": 24,
+   "mixed_lines": 0,
+   "parenthetical_removed": 0,
+   "near_boundary": false
+  },
+  {
+   "ep": 11,
+   "count": 170,
+   "min": 100,
+   "max": 350,
+   "status": "PASS",
+   "reason": "within_range",
+   "by_tag": {
+    "对白": 150,
+    "VO": 10,
+    "OS": 10,
+    "other": 0
+   },
+   "spoken_lines": 34,
+   "english_spoken_lines": 17,
+   "cn_spoken_lines": 17,
+   "mixed_lines": 0,
+   "parenthetical_removed": 0,
+   "near_boundary": false
+  },
+  {
+   "ep": 12,
+   "count": 420,
+   "min": 100,
+   "max": 350,
+   "status": "FAIL_ABOVE",
+   "reason": "above_maximum",
+   "by_tag": {
+    "对白": 400,
+    "VO": 10,
+    "OS": 10,
+    "other": 0
+   },
+   "spoken_lines": 84,
+   "english_spoken_lines": 42,
+   "cn_spoken_lines": 42,
+   "mixed_lines": 0,
+   "parenthetical_removed": 0,
+   "near_boundary": false
+  },
+  {
+   "ep": 13,
+   "count": 140,
+   "min": 100,
+   "max": 350,
+   "status": "PASS",
+   "reason": "within_range",
+   "by_tag": {
+    "对白": 120,
+    "VO": 10,
+    "OS": 10,
+    "other": 0
+   },
+   "spoken_lines": 28,
+   "english_spoken_lines": 14,
+   "cn_spoken_lines": 14,
+   "mixed_lines": 0,
+   "parenthetical_removed": 0,
+   "near_boundary": false
+  },
+  {
+   "ep": 14,
+   "count": 320,
+   "min": 100,
+   "max": 350,
+   "status": "PASS",
+   "reason": "within_range",
+   "by_tag": {
+    "对白": 300,
+    "VO": 10,
+    "OS": 10,
+    "other": 0
+   },
+   "spoken_lines": 64,
+   "english_spoken_lines": 32,
+   "cn_spoken_lines": 32,
+   "mixed_lines": 0,
+   "parenthetical_removed": 0,
+   "near_boundary": false
+  },
+  {
+   "ep": 15,
+   "count": 190,
+   "min": 100,
+   "max": 350,
+   "status": "PASS",
+   "reason": "within_range",
+   "by_tag": {
+    "对白": 170,
+    "VO": 10,
+    "OS": 10,
+    "other": 0
+   },
+   "spoken_lines": 38,
+   "english_spoken_lines": 19,
+   "cn_spoken_lines": 19,
+   "mixed_lines": 0,
+   "parenthetical_removed": 0,
+   "near_boundary": false
+  },
+  {
+   "ep": 16,
+   "count": 110,
+   "min": 100,
+   "max": 350,
+   "status": "PASS",
+   "reason": "within_range",
+   "by_tag": {
+    "对白": 90,
+    "VO": 10,
+    "OS": 10,
+    "other": 0
+   },
+   "spoken_lines": 22,
+   "english_spoken_lines": 11,
+   "cn_spoken_lines": 11,
+   "mixed_lines": 0,
+   "parenthetical_removed": 0,
+   "near_boundary": false
+  },
+  {
+   "ep": 17,
+   "count": 230,
+   "min": 100,
+   "max": 350,
+   "status": "PASS",
+   "reason": "within_range",
+   "by_tag": {
+    "对白": 210,
+    "VO": 10,
+    "OS": 10,
+    "other": 0
+   },
+   "spoken_lines": 46,
+   "english_spoken_lines": 23,
+   "cn_spoken_lines": 23,
+   "mixed_lines": 0,
+   "parenthetical_removed": 0,
+   "near_boundary": false
+  },
+  {
+   "ep": 18,
+   "count": 160,
+   "min": 100,
+   "max": 350,
+   "status": "PASS",
+   "reason": "within_range",
+   "by_tag": {
+    "对白": 140,
+    "VO": 10,
+    "OS": 10,
+    "other": 0
+   },
+   "spoken_lines": 32,
+   "english_spoken_lines": 16,
+   "cn_spoken_lines": 16,
+   "mixed_lines": 0,
+   "parenthetical_removed": 0,
+   "near_boundary": false
+  },
+  {
+   "ep": 19,
+   "count": 280,
+   "min": 100,
+   "max": 350,
+   "status": "PASS",
+   "reason": "within_range",
+   "by_tag": {
+    "对白": 260,
+    "VO": 10,
+    "OS": 10,
+    "other": 0
+   },
+   "spoken_lines": 56,
+   "english_spoken_lines": 28,
+   "cn_spoken_lines": 28,
+   "mixed_lines": 0,
+   "parenthetical_removed": 0,
+   "near_boundary": false
+  },
+  {
+   "ep": 20,
+   "count": 210,
+   "min": 100,
+   "max": 350,
+   "status": "PASS",
+   "reason": "within_range",
+   "by_tag": {
+    "对白": 190,
+    "VO": 10,
+    "OS": 10,
+    "other": 0
+   },
+   "spoken_lines": 42,
+   "english_spoken_lines": 21,
+   "cn_spoken_lines": 21,
+   "mixed_lines": 0,
+   "parenthetical_removed": 0,
+   "near_boundary": false
+  }
+ ],
+ "status": "FAIL"
+}

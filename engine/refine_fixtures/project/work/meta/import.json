@@ -1,0 +1,34 @@
+{
+ "schema": "lianben/import/1",
+ "run_id": "20261106_183824_4f24",
+ "mode": "A",
+ "confidence": 0.999,
+ "score_breakdown": {
+  "ep_header_clarity": 1.0,
+  "line_type_coverage": 1.0,
+  "scene_consistency": 1.0,
+  "dialogue_tag_consistency": 0.993,
+  "bilingual_pair_rate": 1.0,
+  "monotonic_ep": 1.0
+ },
+ "needs_confirm": false,
+ "reject_reason": null,
+ "files": [
+  {
+   "name": "sample-20eps.docx",
+   "sha256": "3a835732a604e84fb62642bc62dea68a85c0f805154d0782a3a610a4adaab6cd",
+   "bytes": 44044
+  }
+ ],
+ "g0": {
+  "extractable": true,
+  "episodes_found": 20,
+  "unique": true,
+  "ascending": true
+ },
+ "g2": {
+  "status": "PASS",
+  "failed_eps": []
+ },
+ "format_provenance": "machine"
+}

@@ -1,0 +1,129 @@
+{
+ "version": 1,
+ "rule": "英文台词正文使用半角 ASCII 标点；不得出现中文全角标点或全角空格。只报告，不自动修改。",
+ "scope": "带 DIALOGUE/VO/OS 标签的英文台词正文；不检查中文表演提示。",
+ "blocking": false,
+ "summary": {
+  "status": "RISK",
+  "issues": 10,
+  "must_fix": 10,
+  "warn": 0,
+  "risky_eps": [
+   3,
+   9,
+   15
+  ]
+ },
+ "results": [
+  {
+   "ep": 3,
+   "paragraph": 150,
+   "line_index": 7,
+   "kind": "dialogue_text",
+   "char": "。",
+   "severity": "must_fix",
+   "count": 1,
+   "context": "LIN YAN (DIALOGUE, voice low): Nobody saw him leave。 That name is on the list.",
+   "suggestion": "改为半角句号「.」"
+  },
+  {
+   "ep": 3,
+   "paragraph": 153,
+   "line_index": 10,
+   "kind": "dialogue_text",
+   "char": "　",
+   "severity": "must_fix",
+   "count": 1,
+   "context": "LIN YAN (VO, voice tight): Do　not touch it. The door was locked from inside.",
+   "suggestion": "全角空格改为半角空格"
+  },
+  {
+   "ep": 3,
+   "paragraph": 156,
+   "line_index": 13,
+   "kind": "dialogue_text",
+   "char": "，",
+   "severity": "must_fix",
+   "count": 1,
+   "context": "LIN YAN (DIALOGUE, tail held back): Stay，close to me. That name is on the list.",
+   "suggestion": "改为半角逗号「,」"
+  },
+  {
+   "ep": 9,
+   "paragraph": 534,
+   "line_index": 7,
+   "kind": "dialogue_text",
+   "char": "。",
+   "severity": "must_fix",
+   "count": 1,
+   "context": "LIN YAN (DIALOGUE, voice low): The manifest looks wrong。 That name is on the list.",
+   "suggestion": "改为半角句号「.」"
+  },
+  {
+   "ep": 9,
+   "paragraph": 537,
+   "line_index": 10,
+   "kind": "dialogue_text",
+   "char": "　",
+   "severity": "must_fix",
+   "count": 1,
+   "context": "LIN YAN (VO, voice tight): Look　at the bollard. The door was locked from inside.",
+   "suggestion": "全角空格改为半角空格"
+  },
+  {
+   "ep": 9,
+   "paragraph": 540,
+   "line_index": 13,
+   "kind": "dialogue_text",
+   "char": "，",
+   "severity": "must_fix",
+   "count": 1,
+   "context": "LIN YAN (DIALOGUE, tail held back): Nobody，leaves the dock. That name is on the list.",
+   "suggestion": "改为半角逗号「,」"
+  },
+  {
+   "ep": 15,
+   "paragraph": 1093,
+   "line_index": 7,
+   "kind": "dialogue_text",
+   "char": "。",
+   "severity": "must_fix",
+   "count": 1,
+   "context": "LIN YAN (DIALOGUE, voice low)： This is not rust。 That name is on the list.",
+   "suggestion": "改为半角句号「.」"
+  },
+  {
+   "ep": 15,
+   "paragraph": 1093,
+   "line_index": 7,
+   "kind": "separator",
+   "char": "：",
+   "severity": "must_fix",
+   "count": 1,
+   "context": "LIN YAN (DIALOGUE, voice low)： This is not rust。 That name is on the list.",
+   "suggestion": "英文台词分隔符改为半角冒号「:」"
+  },
+  {
+   "ep": 15,
+   "paragraph": 1096,
+   "line_index": 10,
+   "kind": "dialogue_text",
+   "char": "　",
+   "severity": "must_fix",
+   "count": 1,
+   "context": "LIN YAN (VO, voice tight): Check　the north gate. The door was locked from inside.",
+   "suggestion": "全角空格改为半角空格"
+  },
+  {
+   "ep": 15,
+   "paragraph": 1099,
+   "line_index": 13,
+   "kind": "dialogue_text",
+   "char": "，",
+   "severity": "must_fix",
+   "count": 1,
+   "context": "LIN YAN (DIALOGUE, tail held back): The，camera went dark. That name is on the list.",
+   "suggestion": "改为半角逗号「,」"
+  }
+ ]
+}

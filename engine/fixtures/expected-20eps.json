@@ -1,0 +1,410 @@
+{
+  "fixture": "sample-20eps.docx",
+  "episode_count": 20,
+  "episodes": [
+    {
+      "ep": 1,
+      "title": "雾港",
+      "title_en": "Mist Harbor",
+      "scenes": 3,
+      "en_words": 180,
+      "labels": {
+        "对白": 16,
+        "VO": 1,
+        "OS": 1
+      },
+      "expected": {
+        "spoken_words": "PASS",
+        "protagonist": "OK",
+        "culture": "clean",
+        "pacing": "ok",
+        "punctuation": "clean"
+      }
+    },
+    {
+      "ep": 2,
+      "title": "缆桩",
+      "title_en": "The Bollard",
+      "scenes": 3,
+      "en_words": 150,
+      "labels": {
+        "对白": 13,
+        "VO": 1,
+        "OS": 1
+      },
+      "expected": {
+        "spoken_words": "PASS",
+        "protagonist": "OK",
+        "culture": "clean",
+        "pacing": "ok",
+        "punctuation": "clean"
+      }
+    },
+    {
+      "ep": 3,
+      "title": "冷光",
+      "title_en": "Cold Light",
+      "scenes": 3,
+      "en_words": 220,
+      "labels": {
+        "对白": 20,
+        "VO": 1,
+        "OS": 1
+      },
+      "expected": {
+        "spoken_words": "PASS",
+        "protagonist": "OK",
+        "culture": "clean",
+        "pacing": "ok",
+        "punctuation": "must_fix"
+      }
+    },
+    {
+      "ep": 4,
+      "title": "旧账",
+      "title_en": "Old Debts",
+      "scenes": 3,
+      "en_words": 130,
+      "labels": {
+        "对白": 11,
+        "VO": 1,
+        "OS": 1
+      },
+      "expected": {
+        "spoken_words": "PASS",
+        "protagonist": "OK",
+        "culture": "clean",
+        "pacing": "ok",
+        "punctuation": "clean"
+      }
+    },
+    {
+      "ep": 5,
+      "title": "暗流",
+      "title_en": "Undercurrent",
+      "scenes": 3,
+      "en_words": 260,
+      "labels": {
+        "对白": 24,
+        "VO": 1,
+        "OS": 1
+      },
+      "expected": {
+        "spoken_words": "PASS",
+        "protagonist": "OK",
+        "culture": "clean",
+        "pacing": "atom_risk",
+        "punctuation": "clean"
+      }
+    },
+    {
+      "ep": 6,
+      "title": "锈味",
+      "title_en": "The Smell of Rust",
+      "scenes": 3,
+      "en_words": 120,
+      "labels": {
+        "对白": 10,
+        "VO": 1,
+        "OS": 1
+      },
+      "expected": {
+        "spoken_words": "PASS",
+        "protagonist": "OK",
+        "culture": "clean",
+        "pacing": "ok",
+        "punctuation": "clean"
+      }
+    },
+    {
+      "ep": 7,
+      "title": "空舱",
+      "title_en": "Empty Hold",
+      "scenes": 3,
+      "en_words": 60,
+      "labels": {
+        "对白": 4,
+        "VO": 1,
+        "OS": 1
+      },
+      "expected": {
+        "spoken_words": "FAIL_BELOW",
+        "protagonist": "OK",
+        "culture": "clean",
+        "pacing": "ok",
+        "punctuation": "clean"
+      }
+    },
+    {
+      "ep": 8,
+      "title": "回声",
+      "title_en": "Echo",
+      "scenes": 3,
+      "en_words": 200,
+      "labels": {
+        "对白": 18,
+        "VO": 1,
+        "OS": 1
+      },
+      "expected": {
+        "spoken_words": "PASS",
+        "protagonist": "OK",
+        "culture": "clean",
+        "pacing": "ok",
+        "punctuation": "clean"
+      }
+    },
+    {
+      "ep": 9,
+      "title": "值班室",
+      "title_en": "Duty Room",
+      "scenes": 3,
+      "en_words": 300,
+      "labels": {
+        "对白": 28,
+        "VO": 1,
+        "OS": 1
+      },
+      "expected": {
+        "spoken_words": "PASS",
+        "protagonist": "OK",
+        "culture": "clean",
+        "pacing": "ok",
+        "punctuation": "must_fix"
+      }
+    },
+    {
+      "ep": 10,
+      "title": "家宴",
+      "title_en": "Family Dinner",
+      "scenes": 3,
+      "en_words": 240,
+      "labels": {
+        "对白": 22,
+        "VO": 1,
+        "OS": 1
+      },
+      "expected": {
+        "spoken_words": "PASS",
+        "protagonist": "OK",
+        "culture": "must_fix",
+        "pacing": "ok",
+        "punctuation": "clean"
+      }
+    },
+    {
+      "ep": 11,
+      "title": "锈锁",
+      "title_en": "Rusty Lock",
+      "scenes": 3,
+      "en_words": 170,
+      "labels": {
+        "对白": 15,
+        "VO": 1,
+        "OS": 1
+      },
+      "expected": {
+        "spoken_words": "PASS",
+        "protagonist": "OK",
+        "culture": "clean",
+        "pacing": "ok",
+        "punctuation": "clean"
+      }
+    },
+    {
+      "ep": 12,
+      "title": "潮汐表",
+      "title_en": "Tide Table",
+      "scenes": 3,
+      "en_words": 420,
+      "labels": {
+        "对白": 40,
+        "VO": 1,
+        "OS": 1
+      },
+      "expected": {
+        "spoken_words": "FAIL_ABOVE",
+        "protagonist": "OK",
+        "culture": "clean",
+        "pacing": "ok",
+        "punctuation": "clean"
+      }
+    },
+    {
+      "ep": 13,
+      "title": "失踪名单",
+      "title_en": "Missing List",
+      "scenes": 3,
+      "en_words": 140,
+      "labels": {
+        "对白": 12,
+        "VO": 1,
+        "OS": 1
+      },
+      "expected": {
+        "spoken_words": "PASS",
+        "protagonist": "OK",
+        "culture": "clean",
+        "pacing": "ok",
+        "punctuation": "clean"
+      }
+    },
+    {
+      "ep": 14,
+      "title": "断线",
+      "title_en": "Cut Line",
+      "scenes": 3,
+      "en_words": 320,
+      "labels": {
+        "对白": 30,
+        "VO": 1,
+        "OS": 1
+      },
+      "expected": {
+        "spoken_words": "PASS",
+        "protagonist": "OK",
+        "culture": "clean",
+        "pacing": "dialogue_risk",
+        "punctuation": "clean"
+      }
+    },
+    {
+      "ep": 15,
+      "title": "夜航",
+      "title_en": "Night Run",
+      "scenes": 3,
+      "en_words": 190,
+      "labels": {
+        "对白": 17,
+        "VO": 1,
+        "OS": 1
+      },
+      "expected": {
+        "spoken_words": "PASS",
+        "protagonist": "OK",
+        "culture": "clean",
+        "pacing": "ok",
+        "punctuation": "must_fix"
+      }
+    },
+    {
+      "ep": 16,
+      "title": "铁证",
+      "title_en": "Iron Proof",
+      "scenes": 3,
+      "en_words": 110,
+      "labels": {
+        "对白": 9,
+        "VO": 1,
+        "OS": 1
+      },
+      "expected": {
+        "spoken_words": "PASS",
+        "protagonist": "OK",
+        "culture": "clean",
+        "pacing": "ok",
+        "punctuation": "clean"
+      }
+    },
+    {
+      "ep": 17,
+      "title": "逆流",
+      "title_en": "Against the Current",
+      "scenes": 3,
+      "en_words": 230,
+      "labels": {
+        "对白": 21,
+        "VO": 1,
+        "OS": 1
+      },
+      "expected": {
+        "spoken_words": "PASS",
+        "protagonist": "OK",
+        "culture": "clean",
+        "pacing": "ok",
+        "punctuation": "clean"
+      }
+    },
+    {
+      "ep": 18,
+      "title": "旁观者",
+      "title_en": "Bystander",
+      "scenes": 3,
+      "en_words": 160,
+      "labels": {
+        "对白": 14,
+        "VO": 1,
+        "OS": 1
+      },
+      "expected": {
+        "spoken_words": "PASS",
+        "protagonist": "LOW_PROTAGONIST",
+        "culture": "clean",
+        "pacing": "ok",
+        "punctuation": "clean"
+      }
+    },
+    {
+      "ep": 19,
+      "title": "雨幕",
+      "title_en": "Rain Curtain",
+      "scenes": 3,
+      "en_words": 280,
+      "labels": {
+        "对白": 26,
+        "VO": 1,
+        "OS": 1
+      },
+      "expected": {
+        "spoken_words": "PASS",
+        "protagonist": "OK",
+        "culture": "clean",
+        "pacing": "ok",
+        "punctuation": "clean"
+      }
+    },
+    {
+      "ep": 20,
+      "title": "归港",
+      "title_en": "Return to Port",
+      "scenes": 3,
+      "en_words": 210,
+      "labels": {
+        "对白": 19,
+        "VO": 1,
+        "OS": 1
+      },
+      "expected": {
+        "spoken_words": "PASS",
+        "protagonist": "OK",
+        "culture": "clean",
+        "pacing": "ok",
+        "punctuation": "clean"
+      }
+    }
+  ],
+  "design": {
+    "spoken_fail": {
+      "7": "FAIL_BELOW",
+      "12": "FAIL_ABOVE"
+    },
+    "culture_risky_eps": [
+      10
+    ],
+    "protagonist_blocked_eps": [
+      18
+    ],
+    "pacing_atom_risky_eps": [
+      5
+    ],
+    "pacing_dialogue_risky_eps": [
+      14
+    ],
+    "punctuation_risky_eps": [
+      3,
+      9,
+      15
+    ],
+    "near_boundary_eps": []
+  }
+}

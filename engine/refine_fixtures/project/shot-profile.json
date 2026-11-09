@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "mode": "warn",
+  "coverage": {
+    "min_scene_ratio": 0.4,
+    "min_dialogue_ratio": 0.2,
+    "borderline_scene_ratio": 0.55,
+    "borderline_dialogue_ratio": 0.35,
+    "borderline_coverage_score": 0.45
+  },
+  "shots": {
+    "related_ratio_min": 0.7,
+    "related_ratio_target": 0.8,
+    "protagonist_share_min": 0.35,
+    "n_ratio_max": 0.3,
+    "n_run_max": 2,
+    "support_run_max": 2,
+    "protagonist_closeup_share_min": 0.3,
+    "anchor_variety_min": 3,
+    "observe_share_max": 0.3,
+    "anchor_missing_max": 0.2
+  }
+}

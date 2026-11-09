@@ -1,0 +1,24 @@
+{
+ "schema": "lianben/bgm/theme-map/1",
+ "series": "雾港（mock）",
+ "themes": [
+  {
+   "id": "M1",
+   "name": "雾港冷雾",
+   "instrument": "低音提琴长音 + 合成器低频脉冲",
+   "function": "建立地域与压迫感"
+  },
+  {
+   "id": "M2",
+   "name": "暗红痕迹",
+   "instrument": "钢琴单音 + 金属镲片轻击",
+   "function": "线索出现与不安"
+  },
+  {
+   "id": "M3",
+   "name": "铁锈回声",
+   "instrument": "磁带噪声 + 颤音琴",
+   "function": "真相逼近的余响"
+  }
+ ]
+}

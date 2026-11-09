@@ -1,0 +1,63 @@
+{
+ "protagonist": "林砚",
+ "aliases": [
+  "LIN YAN"
+ ],
+ "profile_source": "auto",
+ "coverage": {
+  "min_scene_ratio": 0.4,
+  "min_dialogue_ratio": 0.2,
+  "borderline_scene_ratio": 0.55,
+  "borderline_dialogue_ratio": 0.35,
+  "borderline_coverage_score": 0.45
+ },
+ "episodes": [
+  {
+   "ep": 1,
+   "scenes": 3,
+   "protagonist_scenes": 3,
+   "scene_ratio": 1.0,
+   "dialogue_lines": 36,
+   "protagonist_dialogue_lines": 24,
+   "dialogue_ratio": 0.667,
+   "action_lines": 21,
+   "protagonist_action_lines": 2,
+   "action_ratio": 0.095,
+   "coverage_score": 0.719,
+   "status": "OK",
+   "reason": "",
+   "scene_map": [
+    {
+     "scene": "1-1",
+     "has_protagonist": true,
+     "evidence": [
+      "VO",
+      "△",
+      "人物",
+      "对白"
+     ]
+    },
+    {
+     "scene": "1-2",
+     "has_protagonist": true,
+     "evidence": [
+      "人物",
+      "对白"
+     ]
+    },
+    {
+     "scene": "1-3",
+     "has_protagonist": true,
+     "evidence": [
+      "△",
+      "人物",
+      "对白"
+     ]
+    }
+   ],
+   "entered": false,
+   "blocked": false
+  }
+ ],
+ "blocked_eps": []
+}

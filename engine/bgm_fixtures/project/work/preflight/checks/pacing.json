@@ -1,0 +1,525 @@
+{
+ "schema": "lianben/check/1",
+ "check": "pacing",
+ "version": "1.0",
+ "run_id": "20261106_183824_4f24",
+ "generated_at": "2026-11-06T18:38:24+08:00",
+ "check_basis": "standardized",
+ "source_sha256": "3a835732a604e84fb62642bc62dea68a85c0f805154d0782a3a610a4adaab6cd",
+ "config_hash": "095c8e1c1df8fc07a06369231005b75d4851a2739c22233ce4b868cad477509a",
+ "status": "RISK",
+ "blocking": false,
+ "summary": {
+  "status": "RISK",
+  "atom_risky_eps": [
+   5
+  ],
+  "dialogue_risky_eps": [
+   14
+  ]
+ },
+ "results": [],
+ "compat": {
+  "legacy_file": "work/preflight/atom_pacing.json"
+ },
+ "subchecks": {
+  "atom_pacing": {
+   "status": "RISK",
+   "thresholds": {
+    "max_atom_run": 4,
+    "max_atoms_per_spoken": 3.0,
+    "dup_similarity": 0.5,
+    "max_dup_pairs": 1
+   },
+   "risky_eps": [
+    5
+   ],
+   "results": [
+    {
+     "ep": 1,
+     "atoms": 21,
+     "spoken": 36,
+     "ratio": 0.58,
+     "max_atom_run": 1,
+     "duplicate_pairs": 0,
+     "long_runs": [],
+     "merge_targets": [],
+     "duplicates": [],
+     "reasons": []
+    },
+    {
+     "ep": 2,
+     "atoms": 18,
+     "spoken": 30,
+     "ratio": 0.6,
+     "max_atom_run": 1,
+     "duplicate_pairs": 0,
+     "long_runs": [],
+     "merge_targets": [],
+     "duplicates": [],
+     "reasons": []
+    },
+    {
+     "ep": 3,
+     "atoms": 25,
+     "spoken": 44,
+     "ratio": 0.57,
+     "max_atom_run": 1,
+     "duplicate_pairs": 0,
+     "long_runs": [],
+     "merge_targets": [],
+     "duplicates": [],
+     "reasons": []
+    },
+    {
+     "ep": 4,
+     "atoms": 16,
+     "spoken": 26,
+     "ratio": 0.62,
+     "max_atom_run": 1,
+     "duplicate_pairs": 0,
+     "long_runs": [],
+     "merge_targets": [],
+     "duplicates": [],
+     "reasons": []
+    },
+    {
+     "ep": 5,
+     "atoms": 32,
+     "spoken": 52,
+     "ratio": 0.62,
+     "max_atom_run": 4,
+     "duplicate_pairs": 0,
+     "long_runs": [
+      {
+       "start": 39,
+       "length": 4,
+       "preview": "△ 手电光扫过仓库门缝，灰尘在光里浮动。"
+      }
+     ],
+     "merge_targets": [
+      {
+       "start": 39,
+       "length": 4,
+       "preview": "△ 手电光扫过仓库门缝，灰尘在光里浮动。"
+      }
+     ],
+     "duplicates": [],
+     "reasons": [
+      "连续无台词 △ 段达 4 条（上限 4）"
+     ]
+    },
+    {
+     "ep": 6,
+     "atoms": 15,
+     "spoken": 24,
+     "ratio": 0.62,
+     "max_atom_run": 1,
+     "duplicate_pairs": 0,
+     "long_runs": [],
+     "merge_targets": [],
+     "duplicates": [],
+     "reasons": []
+    },
+    {
+     "ep": 7,
+     "atoms": 9,
+     "spoken": 12,
+     "ratio": 0.75,
+     "max_atom_run": 1,
+     "duplicate_pairs": 0,
+     "long_runs": [],
+     "merge_targets": [],
+     "duplicates": [],
+     "reasons": []
+    },
+    {
+     "ep": 8,
+     "atoms": 23,
+     "spoken": 40,
+     "ratio": 0.57,
+     "max_atom_run": 1,
+     "duplicate_pairs": 0,
+     "long_runs": [],
+     "merge_targets": [],
+     "duplicates": [],
+     "reasons": []
+    },
+    {
+     "ep": 9,
+     "atoms": 33,
+     "spoken": 60,
+     "ratio": 0.55,
+     "max_atom_run": 1,
+     "duplicate_pairs": 0,
+     "long_runs": [],
+     "merge_targets": [],
+     "duplicates": [],
+     "reasons": []
+    },
+    {
+     "ep": 10,
+     "atoms": 28,
+     "spoken": 48,
+     "ratio": 0.58,
+     "max_atom_run": 2,
+     "duplicate_pairs": 0,
+     "long_runs": [],
+     "merge_targets": [
+      {
+       "start": 39,
+       "length": 2,
+       "preview": "△ 值班桌上的茶已经凉了，杯壁凝着水。"
+      }
+     ],
+     "duplicates": [],
+     "reasons": []
+    },
+    {
+     "ep": 11,
+     "atoms": 20,
+     "spoken": 34,
+     "ratio": 0.59,
+     "max_atom_run": 1,
+     "duplicate_pairs": 0,
+     "long_runs": [],
+     "merge_targets": [],
+     "duplicates": [],
+     "reasons": []
+    },
+    {
+     "ep": 12,
+     "atoms": 45,
+     "spoken": 84,
+     "ratio": 0.54,
+     "max_atom_run": 1,
+     "duplicate_pairs": 0,
+     "long_runs": [],
+     "merge_targets": [],
+     "duplicates": [],
+     "reasons": []
+    },
+    {
+     "ep": 13,
+     "atoms": 17,
+     "spoken": 28,
+     "ratio": 0.61,
+     "max_atom_run": 1,
+     "duplicate_pairs": 0,
+     "long_runs": [],
+     "merge_targets": [],
+     "duplicates": [],
+     "reasons": []
+    },
+    {
+     "ep": 14,
+     "atoms": 32,
+     "spoken": 64,
+     "ratio": 0.5,
+     "max_atom_run": 1,
+     "duplicate_pairs": 0,
+     "long_runs": [],
+     "merge_targets": [],
+     "duplicates": [],
+     "reasons": []
+    },
+    {
+     "ep": 15,
+     "atoms": 22,
+     "spoken": 38,
+     "ratio": 0.58,
+     "max_atom_run": 1,
+     "duplicate_pairs": 0,
+     "long_runs": [],
+     "merge_targets": [],
+     "duplicates": [],
+     "reasons": []
+    },
+    {
+     "ep": 16,
+     "atoms": 14,
+     "spoken": 22,
+     "ratio": 0.64,
+     "max_atom_run": 1,
+     "duplicate_pairs": 0,
+     "long_runs": [],
+     "merge_targets": [],
+     "duplicates": [],
+     "reasons": []
+    },
+    {
+     "ep": 17,
+     "atoms": 26,
+     "spoken": 46,
+     "ratio": 0.57,
+     "max_atom_run": 1,
+     "duplicate_pairs": 0,
+     "long_runs": [],
+     "merge_targets": [],
+     "duplicates": [],
+     "reasons": []
+    },
+    {
+     "ep": 18,
+     "atoms": 19,
+     "spoken": 32,
+     "ratio": 0.59,
+     "max_atom_run": 1,
+     "duplicate_pairs": 0,
+     "long_runs": [],
+     "merge_targets": [],
+     "duplicates": [],
+     "reasons": []
+    },
+    {
+     "ep": 19,
+     "atoms": 31,
+     "spoken": 56,
+     "ratio": 0.55,
+     "max_atom_run": 1,
+     "duplicate_pairs": 0,
+     "long_runs": [],
+     "merge_targets": [],
+     "duplicates": [],
+     "reasons": []
+    },
+    {
+     "ep": 20,
+     "atoms": 24,
+     "spoken": 42,
+     "ratio": 0.57,
+     "max_atom_run": 1,
+     "duplicate_pairs": 0,
+     "long_runs": [],
+     "merge_targets": [],
+     "duplicates": [],
+     "reasons": []
+    }
+   ]
+  },
+  "dialogue_density": {
+   "status": "RISK",
+   "thresholds": {
+    "max_spoken_run": 8,
+    "min_atoms_per_spoken": 0.5,
+    "spoken_floor": 10
+   },
+   "risky_eps": [
+    14
+   ],
+   "results": [
+    {
+     "ep": 1,
+     "atoms": 21,
+     "spoken": 36,
+     "ratio": 0.58,
+     "max_spoken_run": 2,
+     "dialogue_runs": [],
+     "dialogue_reasons": []
+    },
+    {
+     "ep": 2,
+     "atoms": 18,
+     "spoken": 30,
+     "ratio": 0.6,
+     "max_spoken_run": 2,
+     "dialogue_runs": [],
+     "dialogue_reasons": []
+    },
+    {
+     "ep": 3,
+     "atoms": 25,
+     "spoken": 44,
+     "ratio": 0.57,
+     "max_spoken_run": 2,
+     "dialogue_runs": [],
+     "dialogue_reasons": []
+    },
+    {
+     "ep": 4,
+     "atoms": 16,
+     "spoken": 26,
+     "ratio": 0.62,
+     "max_spoken_run": 2,
+     "dialogue_runs": [],
+     "dialogue_reasons": []
+    },
+    {
+     "ep": 5,
+     "atoms": 32,
+     "spoken": 52,
+     "ratio": 0.62,
+     "max_spoken_run": 2,
+     "dialogue_runs": [],
+     "dialogue_reasons": []
+    },
+    {
+     "ep": 6,
+     "atoms": 15,
+     "spoken": 24,
+     "ratio": 0.62,
+     "max_spoken_run": 2,
+     "dialogue_runs": [],
+     "dialogue_reasons": []
+    },
+    {
+     "ep": 7,
+     "atoms": 9,
+     "spoken": 12,
+     "ratio": 0.75,
+     "max_spoken_run": 2,
+     "dialogue_runs": [],
+     "dialogue_reasons": []
+    },
+    {
+     "ep": 8,
+     "atoms": 23,
+     "spoken": 40,
+     "ratio": 0.57,
+     "max_spoken_run": 2,
+     "dialogue_runs": [],
+     "dialogue_reasons": []
+    },
+    {
+     "ep": 9,
+     "atoms": 33,
+     "spoken": 60,
+     "ratio": 0.55,
+     "max_spoken_run": 2,
+     "dialogue_runs": [],
+     "dialogue_reasons": []
+    },
+    {
+     "ep": 10,
+     "atoms": 28,
+     "spoken": 48,
+     "ratio": 0.58,
+     "max_spoken_run": 2,
+     "dialogue_runs": [],
+     "dialogue_reasons": []
+    },
+    {
+     "ep": 11,
+     "atoms": 20,
+     "spoken": 34,
+     "ratio": 0.59,
+     "max_spoken_run": 2,
+     "dialogue_runs": [],
+     "dialogue_reasons": []
+    },
+    {
+     "ep": 12,
+     "atoms": 45,
+     "spoken": 84,
+     "ratio": 0.54,
+     "max_spoken_run": 2,
+     "dialogue_runs": [],
+     "dialogue_reasons": []
+    },
+    {
+     "ep": 13,
+     "atoms": 17,
+     "spoken": 28,
+     "ratio": 0.61,
+     "max_spoken_run": 2,
+     "dialogue_runs": [],
+     "dialogue_reasons": []
+    },
+    {
+     "ep": 14,
+     "atoms": 32,
+     "spoken": 64,
+     "ratio": 0.5,
+     "max_spoken_run": 8,
+     "dialogue_runs": [
+      {
+       "start": 98,
+       "length": 8,
+       "preview": "林砚(对白,声线压低)：谁进的仓库。"
+      }
+     ],
+     "dialogue_reasons": [
+      "连续对白段达 8 条（上限 8，段间无 △/换场）"
+     ]
+    },
+    {
+     "ep": 15,
+     "atoms": 22,
+     "spoken": 38,
+     "ratio": 0.58,
+     "max_spoken_run": 2,
+     "dialogue_runs": [],
+     "dialogue_reasons": []
+    },
+    {
+     "ep": 16,
+     "atoms": 14,
+     "spoken": 22,
+     "ratio": 0.64,
+     "max_spoken_run": 2,
+     "dialogue_runs": [],
+     "dialogue_reasons": []
+    },
+    {
+     "ep": 17,
+     "atoms": 26,
+     "spoken": 46,
+     "ratio": 0.57,
+     "max_spoken_run": 2,
+     "dialogue_runs": [],
+     "dialogue_reasons": []
+    },
+    {
+     "ep": 18,
+     "atoms": 19,
+     "spoken": 32,
+     "ratio": 0.59,
+     "max_spoken_run": 2,
+     "dialogue_runs": [],
+     "dialogue_reasons": []
+    },
+    {
+     "ep": 19,
+     "atoms": 31,
+     "spoken": 56,
+     "ratio": 0.55,
+     "max_spoken_run": 2,
+     "dialogue_runs": [],
+     "dialogue_reasons": []
+    },
+    {
+     "ep": 20,
+     "atoms": 24,
+     "spoken": 42,
+     "ratio": 0.57,
+     "max_spoken_run": 2,
+     "dialogue_runs": [],
+     "dialogue_reasons": []
+    }
+   ]
+  }
+ },
+ "merge_proposal": [
+  {
+   "ep": 5,
+   "start_para": 315,
+   "end_para_exclusive": 319,
+   "atom_lines": 4,
+   "preview": "△ 手电光扫过仓库门缝，灰尘在光里浮动。",
+   "suggestion": "连续 △ 合并为 1 条或少量完整 △（保留全部事实与动作，只减条数）；仅建议，不自动改文"
+  },
+  {
+   "ep": 10,
+   "start_para": 670,
+   "end_para_exclusive": 672,
+   "atom_lines": 2,
+   "preview": "△ 值班桌上的茶已经凉了，杯壁凝着水。",
+   "suggestion": "连续 △ 合并为 1 条或少量完整 △（保留全部事实与动作，只减条数）；仅建议，不自动改文"
+  }
+ ],
+ "merge_hint": "合并=连续△并为1条或少量完整△，保留全部事实与表演动作，只减条数",
+ "risky_eps": [
+  5,
+  14
+ ]
+}

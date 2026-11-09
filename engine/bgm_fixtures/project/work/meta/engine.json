@@ -1,0 +1,15 @@
+{
+ "schema": "lianben/engine/1",
+ "version": "1.0.0",
+ "pipeline_version": "1.0.0",
+ "bundle_version": "0.1.0-m1",
+ "run_id": "20261106_183824_4f24",
+ "python_engine": "lianben2",
+ "copied_at": "2026-11-06T18:38:24+08:00",
+ "defaults": [
+  "culture-profile.json",
+  "global-style.md",
+  "shot-profile.json",
+  "标准格式执行标准与示例.md"
+ ]
+}

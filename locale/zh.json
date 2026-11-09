@@ -1,0 +1,29 @@
+{
+  "meta": {
+    "title": "炼本工作台",
+    "description": "炼本工作台 v1.0：导入/前置弱质检/炼本/配乐、实时输出与成本、迁移旧项目。"
+  },
+  "panel": {
+    "label": "炼本工作台"
+  },
+  "page": {
+    "title": "炼本工作台 · M0 平台验证",
+    "subtitle": "左侧栏入口、认证 fetch 路由、流式上传、宿主 Python 与流式 LLM。",
+    "run": "运行检查",
+    "rerun": "重新运行",
+    "hostSelfCheck": "宿主自检",
+    "spike": {
+      "slots": "左栏入口 + 页面",
+      "health": "认证路由",
+      "upload": "流式上传",
+      "sse": "SSE 进度流",
+      "clientReport": "客户端报告回传",
+      "python": "宿主 Python + python-docx",
+      "llm": "流式 LLM 调用"
+    },
+    "pending": "等待",
+    "pass": "通过",
+    "fail": "失败",
+    "empty": "从左侧栏打开「炼本工作台」即可运行 M0 验证。"
+  }
+}

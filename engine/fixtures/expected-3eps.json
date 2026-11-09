@@ -1,0 +1,87 @@
+{
+  "fixture": "sample-3eps.docx",
+  "episode_count": 3,
+  "episodes": [
+    {
+      "ep": 1,
+      "title": "雾港",
+      "title_en": "Mist Harbor",
+      "scenes": 3,
+      "en_words": 140,
+      "labels": {
+        "对白": 12,
+        "VO": 1,
+        "OS": 1
+      },
+      "expected": {
+        "spoken_words": "PASS",
+        "protagonist": "OK",
+        "culture": "clean",
+        "pacing": "ok",
+        "punctuation": "clean"
+      }
+    },
+    {
+      "ep": 2,
+      "title": "缆桩",
+      "title_en": "The Bollard",
+      "scenes": 3,
+      "en_words": 180,
+      "labels": {
+        "对白": 16,
+        "VO": 1,
+        "OS": 1
+      },
+      "expected": {
+        "spoken_words": "PASS",
+        "protagonist": "OK",
+        "culture": "clean",
+        "pacing": "ok",
+        "punctuation": "clean"
+      }
+    },
+    {
+      "ep": 3,
+      "title": "冷光",
+      "title_en": "Cold Light",
+      "scenes": 3,
+      "en_words": 260,
+      "labels": {
+        "对白": 24,
+        "VO": 1,
+        "OS": 1
+      },
+      "expected": {
+        "spoken_words": "PASS",
+        "protagonist": "OK",
+        "culture": "clean",
+        "pacing": "ok",
+        "punctuation": "must_fix"
+      }
+    }
+  ],
+  "design": {
+    "spoken_fail": {
+      "7": "FAIL_BELOW",
+      "12": "FAIL_ABOVE"
+    },
+    "culture_risky_eps": [
+      10
+    ],
+    "protagonist_blocked_eps": [
+      18
+    ],
+    "pacing_atom_risky_eps": [
+      5
+    ],
+    "pacing_dialogue_risky_eps": [
+      14
+    ],
+    "punctuation_risky_eps": [
+      3,
+      9,
+      15
+    ],
+    "near_boundary_eps": []
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "active": "B_bilingual_full",
+  "profiles": {
+    "B_bilingual_full": {
+      "language": "bilingual",
+      "require_fields": ["space_start", "shot_time", "sound", "prohibit"],
+      "optional_fields": ["frame_range", "offscreen_lock"],
+      "shot_max": 4.0,
+      "group_max": 15.0,
+      "episode_max": 150.0,
+      "groups_per_ep": [6, 12],
+      "shots_per_group": [1, 5],
+      "shots_per_ep": [28, 50],
+      "cjk_per_ep": [4500, 9000],
+      "total_chars_per_ep": 10000,
+      "total_chars_target": 9000,
+      "episode_warn_above": 145.0,
+      "time_tolerance": 0.06,
+      "forbid_tokens": ["△", "SPECTACLE", "VFX", "【人物站位】", "【景别", "[EN]:"],
+      "space_forbid_phrases": ["同上", "同前", "承接上一", "位置不变", "参照上组", "参见上组"],
+      "dialogue_tags": ["对白", "VO", "OS", "O.S."]
+    },
+    "A_english_lean": {
+      "language": "english",
+      "require_fields": ["space_start", "shot_time", "sound", "prohibit"],
+      "optional_fields": ["frame_range", "offscreen_lock"],
+      "shot_max": 4.0,
+      "group_max": 15.0,
+      "episode_max": 150.0,
+      "groups_per_ep": [6, 12],
+      "shots_per_group": [1, 5],
+      "shots_per_ep": [28, 50],
+      "cjk_per_ep": [4500, 9000],
+      "total_chars_per_ep": 10000,
+      "total_chars_target": 9000,
+      "episode_warn_above": 145.0,
+      "time_tolerance": 0.06,
+      "forbid_tokens": ["△", "SPECTACLE", "VFX", "【人物站位】", "【景别", "[EN]:"],
+      "space_forbid_phrases": ["同上", "同前", "承接上一", "位置不变", "参照上组", "参见上组"],
+      "dialogue_tags": ["对白", "VO", "OS", "O.S."]
+    }
+  }
+}

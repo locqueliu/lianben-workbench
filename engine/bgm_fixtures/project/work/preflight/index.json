@@ -1,0 +1,162 @@
+{
+ "schema": "lianben/preflight_index/1",
+ "run_id": "20261106_183824_4f24",
+ "generated_at": "2026-11-06T18:38:24+08:00",
+ "source_sha256": "3a835732a604e84fb62642bc62dea68a85c0f805154d0782a3a610a4adaab6cd",
+ "config_hash": "095c8e1c1df8fc07a06369231005b75d4851a2739c22233ce4b868cad477509a",
+ "content_hash": "b02a9d4e38fdd4a9d1e5869ef53c675c047e0e9bbeb4be89aed86500807bc999",
+ "check_basis": "standardized",
+ "effectiveCheckProfile": {
+  "spoken_words": {
+   "min": 100,
+   "max": 350
+  },
+  "pacing": {
+   "max_atom_run": 4,
+   "max_atoms_per_spoken": 3.0,
+   "dup_similarity": 0.5,
+   "max_dup_pairs": 1,
+   "max_spoken_run": 8,
+   "min_atoms_per_spoken": 0.5,
+   "spoken_floor": 10
+  },
+  "culture": {
+   "forbid_cn_elements": true,
+   "allowed_terms": []
+  }
+ },
+ "checkProfileSource": "default",
+ "summary": {
+  "status": "BLOCKED",
+  "degraded": false,
+  "blocked_eps": [
+   18
+  ],
+  "checks_risky": 4,
+  "must_fix": 3,
+  "suspected": 0,
+  "needs_confirm": false,
+  "checks_error": 0
+ },
+ "entry_gate": {
+  "status": "BLOCKED",
+  "reasons": [
+   "protagonist blocked: EP18"
+  ]
+ },
+ "checks": [
+  {
+   "id": "spoken_words",
+   "version": "1.0",
+   "blocking": false,
+   "status": "RISK",
+   "risky_eps": [
+    7,
+    12
+   ],
+   "counts": {
+    "pass": 0,
+    "risk": 1,
+    "blocked": 0,
+    "error": 0,
+    "skip": 0
+   },
+   "duration_ms": 0,
+   "ai_used": false,
+   "result": "checks/spoken_words.json"
+  },
+  {
+   "id": "punctuation",
+   "version": "1.0",
+   "blocking": false,
+   "status": "RISK",
+   "risky_eps": [
+    3,
+    9,
+    15
+   ],
+   "counts": {
+    "pass": 0,
+    "risk": 1,
+    "blocked": 0,
+    "error": 0,
+    "skip": 0
+   },
+   "duration_ms": 0,
+   "ai_used": false,
+   "result": "checks/punctuation.json"
+  },
+  {
+   "id": "pacing",
+   "version": "1.0",
+   "blocking": false,
+   "status": "RISK",
+   "risky_eps": [
+    5,
+    14
+   ],
+   "counts": {
+    "pass": 0,
+    "risk": 1,
+    "blocked": 0,
+    "error": 0,
+    "skip": 0
+   },
+   "duration_ms": 0,
+   "ai_used": false,
+   "result": "checks/pacing.json"
+  },
+  {
+   "id": "protagonist",
+   "version": "1.0",
+   "blocking": true,
+   "status": "BLOCKED",
+   "risky_eps": [
+    18
+   ],
+   "counts": {
+    "pass": 0,
+    "risk": 0,
+    "blocked": 1,
+    "error": 0,
+    "skip": 0
+   },
+   "duration_ms": 0,
+   "ai_used": false,
+   "result": "checks/protagonist.json"
+  },
+  {
+   "id": "culture",
+   "version": "1.0",
+   "blocking": false,
+   "status": "RISK",
+   "risky_eps": [
+    10
+   ],
+   "counts": {
+    "pass": 0,
+    "risk": 1,
+    "blocked": 0,
+    "error": 0,
+    "skip": 0
+   },
+   "duration_ms": 0,
+   "ai_used": false,
+   "result": "checks/culture.json"
+  }
+ ],
+ "episodes": [
+  {
+   "ep": 1,
+   "blocked": false,
+   "status": {
+    "spoken_words": "PASS",
+    "punctuation": "OK",
+    "pacing": "OK",
+    "protagonist": "OK",
+    "culture": "OK"
+   }
+  }
+ ],
+ "warnings": []
+}

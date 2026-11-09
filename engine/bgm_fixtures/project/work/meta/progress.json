@@ -1,0 +1,12 @@
+{
+ "schema": "lianben/progress/1",
+ "episodes": {
+  "1": {
+   "status": "pending",
+   "attempts": 0,
+   "reasons": [],
+   "title": "第1集《雾港》"
+  }
+ },
+ "updated": "fixture"
+}

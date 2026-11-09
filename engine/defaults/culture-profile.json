@@ -1,0 +1,6 @@
+{
+  "market": "overseas",
+  "setting": "以 SOURCE 为准",
+  "forbid_cn_elements": true,
+  "allowed_terms": []
+}

@@ -1,0 +1,115 @@
+{
+ "schema": "lianben/project/1",
+ "project_id": "p_qypzrpvz8c7tmmvc5s79ne6de2",
+ "id": "refine-fixture",
+ "slug": "refine-fixture",
+ "title": "refine-fixture-1ep",
+ "created_at": "2026-11-06T18:38:24+08:00",
+ "createdAt": "2026-11-06T18:38:24+08:00",
+ "updated_at": "2026-11-06T18:38:25+08:00",
+ "updatedAt": "2026-11-06T18:38:25+08:00",
+ "pipeline": {
+  "preflight": "1.0"
+ },
+ "pipeline_version": "1.0.0",
+ "engine_version": "1.0.0",
+ "components": {
+  "preflight": "1.0.0",
+  "refine": "1.0.0",
+  "bgm": "1.0.0",
+  "checks": {
+   "spoken_words": "1.0",
+   "punctuation": "1.0",
+   "pacing": "1.0",
+   "protagonist": "1.0",
+   "culture": "1.0"
+  }
+ },
+ "input": {
+  "mode": "A",
+  "files": [
+   {
+    "name": "sample-1ep.docx",
+    "rel_path": "剧本输入/sample-1ep.docx",
+    "sha256": "0a22bc147a0e6b19ba74b45fdde4b032de57b01c47a8453528d67ad02d471278",
+    "bytes": 38548
+   }
+  ],
+  "source_sha256": "0a22bc147a0e6b19ba74b45fdde4b032de57b01c47a8453528d67ad02d471278",
+  "docx": "剧本输入/sample-1ep.docx",
+  "paragraphs": "work/meta/paragraphs.jsonl"
+ },
+ "source": {
+  "file": "剧本输入/sample-1ep.docx",
+  "name": "sample-1ep.docx",
+  "sha256": "0a22bc147a0e6b19ba74b45fdde4b032de57b01c47a8453528d67ad02d471278",
+  "bytes": 38548
+ },
+ "options": {
+  "min_words": 100,
+  "max_words": 350,
+  "forbid_cn_elements": true,
+  "allowed_terms": [],
+  "standardize": "M0",
+  "ai_assist": {
+   "enabled": false,
+   "max_calls": 2,
+   "max_input_tokens": 8000,
+   "max_output_tokens": 1500,
+   "auto_accept_confidence": 0.85
+  },
+  "entry_gate": {
+   "include_spoken_fail": false
+  }
+ },
+ "episodes": {
+  "count": 1,
+  "first": 1,
+  "last": 1,
+  "index": "work/meta/ep_index.json"
+ },
+ "blocked_eps": [],
+ "status": "preflight_done",
+ "last_run_id": "20261106_183824_4f24",
+ "check_basis": "standardized",
+ "source_sha256": "0a22bc147a0e6b19ba74b45fdde4b032de57b01c47a8453528d67ad02d471278",
+ "config_hash": "095c8e1c1df8fc07a06369231005b75d4851a2739c22233ce4b868cad477509a",
+ "content_hash": "b02a9d4e38fdd4a9d1e5869ef53c675c047e0e9bbeb4be89aed86500807bc999",
+ "checkProfile": {
+  "schema": "lianben/check-profile/1",
+  "source": "default",
+  "effective": {
+   "spoken_words": {
+    "min": 100,
+    "max": 350
+   },
+   "pacing": {
+    "max_atom_run": 4,
+    "max_atoms_per_spoken": 3.0,
+    "dup_similarity": 0.5,
+    "max_dup_pairs": 1,
+    "max_spoken_run": 8,
+    "min_atoms_per_spoken": 0.5,
+    "spoken_floor": 10
+   },
+   "culture": {
+    "forbid_cn_elements": true,
+    "allowed_terms": []
+   }
+  },
+  "warnings": [],
+  "file": "check-profile.json"
+ },
+ "stats": {
+  "episodes": 20,
+  "paragraphs": 1523,
+  "cjk": 14367,
+  "atoms": 470,
+  "dialogue_lines": 818,
+  "language_ratio": {
+   "cn": 0.5,
+   "en": 0.5,
+   "mixed": 0.0
+  }
+ }
+}
