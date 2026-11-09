@@ -33,5 +33,12 @@
         "@deepseek-ai/dsh-client-ui-conversation"
       ]
     }
-  }
+  },
+  "license": "Apache-2.0",
+  "author": "locqueliu",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/locqueliu/lianben-workbench.git"
+  },
+  "homepage": "https://github.com/locqueliu/lianben-workbench"
 }

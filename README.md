@@ -65,3 +65,10 @@ v1 发布态：先卸载旧 `@local/lianben-workbench@0.5.0` 与 `-m1/-m2/-m3/-m
 - **2.0 台账**：`work/meta/source_dialogue.tsv`；纠正会做逐句台词锁校验，失败回滚。
 - **2.0 产物**：`output/<stem>_竖屏分镜稿.md/.docx`、`work/report/dialogue_audit.json`。
 - 2.0 炼本目前支持抽样集（merge 自动 `--allow-partial`）与 A/B storyboard profile；真实 LLM 端到端需先用小样本验证。
+
+## License
+
+Apache License 2.0. See [LICENSE](LICENSE).
+
+Copyright 2026 locqueliu.
+
