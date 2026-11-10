@@ -8,7 +8,7 @@ DSH 插件：导入 .docx 剧本 → 机器前置弱质检 → 炼本（director
 - **导入/前置**：0-token 机器检查（英文台词词数/标点/△ 密度/主角覆盖/文化背景），blocked 硬门槛。
 - **炼本**：8 phases refine Job；director 流式输出（炼本 tab 内嵌实时页）、check_ep 门禁、重试/降级、产物链与成本。
 - **配乐**：9 phases BGM Job；bgm-architect/worker/qc/auditor、bgm_check_ep 门禁、QC/auditor 回炉、merge/build/final_audit；配乐 tab 内嵌实时输出。
-- **成本/预算**：deepseek-flash 峰谷价实时计价；refine 每集 60K / BGM 每集 32K token 预算（含 25% 安全余量），80% 警告、100% needs_confirm。
+- **成本/预算**：deepseek-flash 峰谷价实时计价（北京时间工作日 09:00–12:00、14:00–18:00 高峰，法定节假日除外；其余时段空闲价，空闲价为高峰半价）；refine 每集 60K / BGM 每集 32K token 预算（含 25% 安全余量），80% 警告、100% needs_confirm。
 - **硬化**：Word/WPS 占用 exit 3 → 30s×3 重试 → needs_confirm(word_locked)；旧插件/里程碑包移除后唯一入口。
 - **迁移**：`migrate_legacy.py` + 页面「迁移旧项目」，只读复制旧项目并生成 `project.json`。
 
@@ -71,4 +71,3 @@ v1 发布态：先卸载旧 `@local/lianben-workbench@0.5.0` 与 `-m1/-m2/-m3/-m
 Apache License 2.0. See [LICENSE](LICENSE).
 
 Copyright 2026 locqueliu.
-

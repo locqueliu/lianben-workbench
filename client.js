@@ -123,7 +123,21 @@ window.__ModuleLoader__.load({
         peak: { inputMiss: 2, inputHit: 0.04, output: 8 },
         idle: { inputMiss: 1, inputHit: 0.02, output: 4 },
       },
-      idleWindow: { startMinutes: 30, endMinutes: 510, label: '00:30–08:30', timeZone: 'Asia/Shanghai' },
+      timeZone: 'Asia/Shanghai',
+      peakWindows: [
+        { startMinutes: 9 * 60, endMinutes: 12 * 60 },
+        { startMinutes: 14 * 60, endMinutes: 18 * 60 },
+      ],
+      scheduleLabel: '北京时间周一至周五 09:00–12:00、14:00–18:00 为高峰时段；周末及中国法定节假日全天为空闲时段',
+      holidays: [
+        '2026-01-01', '2026-01-02', '2026-01-03',
+        '2026-02-15', '2026-02-16', '2026-02-17', '2026-02-18', '2026-02-19', '2026-02-20', '2026-02-21', '2026-02-22', '2026-02-23',
+        '2026-04-04', '2026-04-05', '2026-04-06',
+        '2026-05-01', '2026-05-02', '2026-05-03', '2026-05-04', '2026-05-05',
+        '2026-06-19', '2026-06-20', '2026-06-21',
+        '2026-09-25', '2026-09-26', '2026-09-27',
+        '2026-10-01', '2026-10-02', '2026-10-03', '2026-10-04', '2026-10-05', '2026-10-06', '2026-10-07',
+      ],
       current: null,
     }
     const LIVE_FLUSH_MS = 200
@@ -928,7 +942,7 @@ window.__ModuleLoader__.load({
         costOutput: '输出',
         costCalls: '{n} 次调用',
         costEstimate: '估算',
-        costNote: '按每次模型调用结束时的系统时间计价；00:30–08:30 空闲价，其余高峰价。',
+        costNote: '按每次模型调用结束时的北京时间计价；工作日 09:00–12:00、14:00–18:00 为高峰价，周末及中国法定节假日全天为空闲价。',
         costRates: '单价（CNY/百万 tokens）：输入 ¥{miss}（缓存 ¥{hit}）· 输出 ¥{out}',
         tariffPeak: '高峰',
         tariffIdle: '空闲',
@@ -1158,14 +1172,14 @@ window.__ModuleLoader__.load({
         badge1: '1.0',
         badge2: '2.0',
         hint1: '当前：1.0 解说剧（弱质检 + director 逐集写作）。',
-        hint2: '当前：2.0 演绎剧（竖屏分镜 + 台词台账 + 轻度 LLM 纠正）；配乐适配中。',
+        hint2: '当前：2.0 演绎剧（竖屏分镜 + 台词台账 + 轻度 LLM 纠正 + 配乐）。',
         switched: '已切换到 {mode}',
         switchFailed: '模式切换失败：{reason}',
         tabRefine2: '分镜演绎',
         stageRefine2: '分镜',
         stageBgm2: '配乐',
         bgmTitle: '2.0 配乐',
-        bgmBadge: '适配中',
+        bgmBadge: '可用',
         bgmUnavailable: '2.0 配乐已启用：基于 2.0 前置后的 work/source 生成，使用 2.0 配乐规则包。',
         ledgerTitle: '台词台账',
         ledgerReady: '已就绪',
@@ -1710,7 +1724,7 @@ window.__ModuleLoader__.load({
         costOutput: 'Output',
         costCalls: '{n} calls',
         costEstimate: 'estimate',
-        costNote: 'Priced at the system time when each model call finished; 00:30–08:30 is the idle tariff, all other hours are peak.',
+        costNote: 'Priced at the Beijing time when each model call finished; weekdays 09:00–12:00 and 14:00–18:00 are peak, while weekends and Chinese statutory holidays are idle.',
         costRates: 'Rate (CNY per million tokens): input ¥{miss} (cache ¥{hit}) · output ¥{out}',
         tariffPeak: 'Peak',
         tariffIdle: 'Idle',
@@ -1940,14 +1954,14 @@ window.__ModuleLoader__.load({
         badge1: '1.0',
         badge2: '2.0',
         hint1: 'Current: 1.0 narrated drama (weak QC + per-episode director writing).',
-        hint2: 'Current: 2.0 staged drama (vertical storyboard + dialogue ledger + light LLM correction); BGM is being adapted.',
+        hint2: 'Current: 2.0 staged drama (vertical storyboard + dialogue ledger + light LLM correction + BGM).',
         switched: 'Switched to {mode}',
         switchFailed: 'Mode switch failed: {reason}',
         tabRefine2: 'Storyboard',
         stageRefine2: 'Storyboard',
         stageBgm2: 'BGM',
         bgmTitle: '2.0 BGM',
-        bgmBadge: 'Adapting',
+        bgmBadge: 'Ready',
         bgmUnavailable: '2.0 BGM is enabled: it uses 2.0 preflight work/source and the 2.0 BGM rule pack.',
         ledgerTitle: 'Dialogue ledger',
         ledgerReady: 'Ready',
@@ -2146,7 +2160,15 @@ window.__ModuleLoader__.load({
       const rates = isObject(value.rates) ? value.rates : {}
       const peak = isObject(rates.peak) ? rates.peak : DEFAULT_PRICING.rates.peak
       const idle = isObject(rates.idle) ? rates.idle : DEFAULT_PRICING.rates.idle
-      const idleWindow = isObject(value.idleWindow) ? value.idleWindow : DEFAULT_PRICING.idleWindow
+      const peakWindows = Array.isArray(value.peakWindows) && value.peakWindows.length > 0
+        ? value.peakWindows.filter((window) => isObject(window)).map((window) => ({
+            startMinutes: asNumber(window.startMinutes, 540),
+            endMinutes: asNumber(window.endMinutes, 720),
+          }))
+        : DEFAULT_PRICING.peakWindows
+      const holidays = Array.isArray(value.holidays)
+        ? value.holidays.map((date) => asString(date)).filter(Boolean)
+        : DEFAULT_PRICING.holidays
       return {
         model: asString(value.model, DEFAULT_PRICING.model),
         currency: asString(value.currency, DEFAULT_PRICING.currency),
@@ -2163,12 +2185,10 @@ window.__ModuleLoader__.load({
             output: asNumber(idle.output, DEFAULT_PRICING.rates.idle.output),
           },
         },
-        idleWindow: {
-          startMinutes: asNumber(idleWindow.startMinutes, DEFAULT_PRICING.idleWindow.startMinutes),
-          endMinutes: asNumber(idleWindow.endMinutes, DEFAULT_PRICING.idleWindow.endMinutes),
-          label: asString(idleWindow.label, DEFAULT_PRICING.idleWindow.label),
-          timeZone: asString(idleWindow.timeZone, DEFAULT_PRICING.idleWindow.timeZone),
-        },
+        timeZone: asString(value.timeZone, DEFAULT_PRICING.timeZone),
+        peakWindows,
+        holidays,
+        scheduleLabel: asString(value.scheduleLabel, DEFAULT_PRICING.scheduleLabel),
         current: isObject(value.current) ? value.current : null,
       }
     }
@@ -2197,15 +2217,24 @@ window.__ModuleLoader__.load({
       } catch {
         // fall through to the local clock
       }
-      return { minutes, clock: `${hhmm}:${String(seconds).padStart(2, '0')}`, hhmm }
+      const shifted = new Date(now.getTime() + 8 * 60 * 60 * 1000)
+      const date = `${shifted.getUTCFullYear()}-${String(shifted.getUTCMonth() + 1).padStart(2, '0')}-${String(shifted.getUTCDate()).padStart(2, '0')}`
+      const weekday = shifted.getUTCDay()
+      return { minutes, clock: `${hhmm}:${String(seconds).padStart(2, '0')}`, hhmm, date, weekday }
     }
 
-    function tariffFor(pricing, minutes) {
-      const idleWindow = normalizePricing(pricing).idleWindow
-      const start = idleWindow.startMinutes
-      const end = idleWindow.endMinutes
-      const inIdle = start <= end ? minutes >= start && minutes < end : minutes >= start || minutes < end
-      return inIdle ? 'idle' : 'peak'
+    function tariffFor(pricing, clockOrMinutes) {
+      const normalized = normalizePricing(pricing)
+      const clock = isObject(clockOrMinutes)
+        ? clockOrMinutes
+        : { minutes: asNumber(clockOrMinutes, 0) }
+      if (clock.weekday === 0 || clock.weekday === 6) return 'idle'
+      if (clock.date && normalized.holidays.includes(clock.date)) return 'idle'
+      const minutes = asNumber(clock.minutes, 0)
+      const inPeak = normalized.peakWindows.some(
+        (window) => minutes >= window.startMinutes && minutes < window.endMinutes,
+      )
+      return inPeak ? 'peak' : 'idle'
     }
 
     function normalizeCost(raw) {
@@ -2252,7 +2281,7 @@ window.__ModuleLoader__.load({
     function resolveCost(options) {
       const opts = isObject(options) ? options : {}
       const pricing = normalizePricing(opts.pricing)
-      const tariff = tariffFor(pricing, beijingNow().minutes)
+      const tariff = tariffFor(pricing, beijingNow())
       if (isObject(opts.cost)) {
         const cost = normalizeCost(opts.cost)
         if (!cost.tariff) cost.tariff = tariff
@@ -3781,7 +3810,7 @@ window.__ModuleLoader__.load({
         const timer = setInterval(() => setClock(beijingNow()), 1000)
         return () => clearInterval(timer)
       }, [])
-      const tariff = tariffFor(pricing, clock.minutes)
+      const tariff = tariffFor(pricing, clock)
       const tariffLabel = tariff === 'idle' ? t('refine.tariffIdle') : t('refine.tariffPeak')
       const cost = resolveCost({ cost: props.cost, tokens: props.tokens, pricing })
       const rates = pricing.rates[tariff] || pricing.rates.peak
